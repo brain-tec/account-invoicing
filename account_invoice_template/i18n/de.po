@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: account-invoicing (7.0)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-08-14 14:58+0000\n"
-"PO-Revision-Date: 2015-06-03 05:00+0000\n"
+"POT-Creation-Date: 2016-12-16 23:50+0000\n"
+"PO-Revision-Date: 2016-12-22 14:06+0000\n"
 "Last-Translator: OCA Transbot <transbot@odoo-community.org>\n"
 "Language-Team: German (http://www.transifex.com/oca/OCA-account-invoicing-7-0/language/de/)\n"
 "MIME-Version: 1.0\n"
@@ -56,7 +56,7 @@ msgstr "Gruppiert nach..."
 #. module: account_invoice_template
 #: field:wizard.select.invoice.template,state:0
 msgid "State"
-msgstr ""
+msgstr "Status"
 
 #. module: account_invoice_template
 #: field:account.invoice.template.line,template_id:0
@@ -84,7 +84,7 @@ msgstr "wizard.select.invoice.template"
 #: field:account.invoice.template.line,product_id:0
 #: field:wizard.select.invoice.template.line,product_id:0
 msgid "Product"
-msgstr ""
+msgstr "Produkt"
 
 #. module: account_invoice_template
 #: code:addons/account_invoice_template/wizard/select_template.py:92
@@ -185,7 +185,7 @@ msgstr "Berechnet"
 #. module: account_invoice_template
 #: field:account.invoice.template.line,sequence:0
 msgid "Sequence"
-msgstr ""
+msgstr "Reihenfolge"
 
 #. module: account_invoice_template
 #: view:account.invoice.template.line:0

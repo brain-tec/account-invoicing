@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: account-invoicing (7.0)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-08-14 14:58+0000\n"
+"POT-Creation-Date: 2017-01-28 00:11+0000\n"
 "PO-Revision-Date: 2015-06-03 04:47+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: Italian (http://www.transifex.com/oca/OCA-account-invoicing-7-0/language/it/)\n"
@@ -21,7 +21,7 @@ msgstr ""
 #: code:addons/account_invoice_merge/wizard/invoice_merge.py:67
 #, python-format
 msgid "Not all invoices are at the same currency!"
-msgstr ""
+msgstr "Non tutte le fatture sono della stessa valuta!"
 
 #. module: account_invoice_merge
 #: view:invoice.merge:0
@@ -32,7 +32,7 @@ msgstr ""
 #: code:addons/account_invoice_merge/wizard/invoice_merge.py:55
 #, python-format
 msgid "Not all invoices are at the same company!"
-msgstr ""
+msgstr "Non tutte le fatture sono alla stessa azienda!"
 
 #. module: account_invoice_merge
 #: view:invoice.merge:0
@@ -44,18 +44,18 @@ msgstr ""
 msgid ""
 "* Invoice lines are exactly the same except for the product,quantity and "
 "unit"
-msgstr ""
+msgstr "Le righe della fattura sono esattamente le stesse tranne per prodotto, quantità ed unità di misura"
 
 #. module: account_invoice_merge
 #: view:invoice.merge:0
 msgid "Merge Invoices"
-msgstr ""
+msgstr "Unisci fatture"
 
 #. module: account_invoice_merge
 #: code:addons/account_invoice_merge/wizard/invoice_merge.py:46
 #, python-format
 msgid "At least one of the selected invoices is %s!"
-msgstr ""
+msgstr "Almeno una delle fatture selezionate è %s!"
 
 #. module: account_invoice_merge
 #: view:invoice.merge:0
@@ -78,13 +78,13 @@ msgstr ""
 msgid ""
 "* Invoices are have same company, partner, address, currency, journal, "
 "salesman, account, type"
-msgstr ""
+msgstr "Le fatture hanno stessa azienda, partner, indirizzo, valuta, sezionale, commerciale, conto, tipo"
 
 #. module: account_invoice_merge
 #: code:addons/account_invoice_merge/wizard/invoice_merge.py:51
 #, python-format
 msgid "Not all invoices use the same account!"
-msgstr ""
+msgstr "Non tutte le fatture usano lo stesso conto!"
 
 #. module: account_invoice_merge
 #: view:invoice.merge:0
@@ -96,30 +96,30 @@ msgstr ""
 #: model:ir.actions.act_window,name:account_invoice_merge.action_view_invoice_merge
 #: model:ir.model,name:account_invoice_merge.model_invoice_merge
 msgid "Merge Partner Invoice"
-msgstr ""
+msgstr "Unisci fatture"
 
 #. module: account_invoice_merge
 #: view:invoice.merge:0
 msgid "Are you sure you want to merge these invoices ?"
-msgstr ""
+msgstr "Sei sicuro che vuoi unire queste fatture? "
 
 #. module: account_invoice_merge
 #: code:addons/account_invoice_merge/wizard/invoice_merge.py:59
 #, python-format
 msgid "Not all invoices are for the same partner!"
-msgstr ""
+msgstr "Non tutte le fatture sono allo stesso partner!"
 
 #. module: account_invoice_merge
 #: code:addons/account_invoice_merge/wizard/invoice_merge.py:63
 #, python-format
 msgid "Not all invoices are of the same type!"
-msgstr ""
+msgstr "Non tutte le fatture sono dello stesso tipo!"
 
 #. module: account_invoice_merge
 #: code:addons/account_invoice_merge/wizard/invoice_merge.py:36
 #, python-format
 msgid "Please select multiple invoice to merge in the list view."
-msgstr ""
+msgstr "Selezionare  più  fatture  da unire in una vista a lista."
 
 #. module: account_invoice_merge
 #: code:addons/account_invoice_merge/wizard/invoice_merge.py:45
@@ -131,7 +131,7 @@ msgstr ""
 #: code:addons/account_invoice_merge/wizard/invoice_merge.py:70
 #, python-format
 msgid "Warning"
-msgstr ""
+msgstr "Warning"
 
 #. module: account_invoice_merge
 #: code:addons/account_invoice_merge/wizard/invoice_merge.py:35
@@ -153,9 +153,9 @@ msgstr "Annulla"
 #: code:addons/account_invoice_merge/wizard/invoice_merge.py:71
 #, python-format
 msgid "Not all invoices are at the same journal!"
-msgstr ""
+msgstr "Non tutte le fatture hanno lo stesso sezionale!"
 
 #. module: account_invoice_merge
 #: view:invoice.merge:0
 msgid "or"
-msgstr ""
+msgstr "o"
