@@ -9,7 +9,7 @@
               'Therp BV,'
               'Tecnativa,'
               'Odoo Community Association (OCA)',
-    'website': 'http://www.grap.coop',
+    'website': 'https://github.com/OCA/account-invoicing',
     'license': 'AGPL-3',
     'depends': [
         'account',
