@@ -8,11 +8,13 @@ setuptools.setup(
     description="Meta package for oca-account-invoicing Odoo addons",
     version=version,
     install_requires=[
+        'odoo12-addon-account_debitnote',
         'odoo12-addon-account_invoice_analytic_search',
         'odoo12-addon-account_invoice_anglo_saxon_no_cogs_deferral',
         'odoo12-addon-account_invoice_blocking',
         'odoo12-addon-account_invoice_change_currency',
         'odoo12-addon-account_invoice_check_total',
+        'odoo12-addon-account_invoice_date_due',
         'odoo12-addon-account_invoice_fiscal_position_update',
         'odoo12-addon-account_invoice_fixed_discount',
         'odoo12-addon-account_invoice_force_number',
