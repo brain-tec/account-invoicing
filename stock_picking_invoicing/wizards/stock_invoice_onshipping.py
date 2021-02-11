@@ -345,9 +345,7 @@ class StockInvoiceOnshipping(models.TransientModel):
             'journal_id': journal.id,
             'picking_ids': [(4, p.id, False) for p in pickings],
         })
-        # HACK: using hasattr for not depending on Purchase
-        if hasattr(picking, 'purchase_id'):
-            values['purchase_id'] = picking.purchase_id.id
+
         invoice, values = self._simulate_invoice_onchange(values)
         return invoice, values
 
@@ -383,7 +381,7 @@ class StockInvoiceOnshipping(models.TransientModel):
         return grouped_moves.values()
 
     @api.multi
-    def _simulate_invoice_line_onchange(self, values):
+    def _simulate_invoice_line_onchange(self, values, price_unit=None):
         """
         Simulate onchange for invoice line
         :param values: dict
@@ -392,6 +390,8 @@ class StockInvoiceOnshipping(models.TransientModel):
         line = self.env['account.invoice.line'].new(values.copy())
         line._onchange_product_id()
         new_values = line._convert_to_write(line._cache)
+        if price_unit:
+            new_values['price_unit'] = price_unit
         # Ensure basic values are not updated
         values.update(new_values)
         return values
@@ -457,14 +457,8 @@ class StockInvoiceOnshipping(models.TransientModel):
             'move_line_ids': move_line_ids,
             'invoice_id': invoice.id,
         })
-        # HACK: using hasattr for not depending on Purchase
-        if hasattr(move, 'purchase_line_id'):
-            values['purchase_line_id'] = move.purchase_line_id.id
-        # HACK: using hasattr for not depending on Sale
-        if hasattr(move, 'sale_line_id'):
-            if move.sale_line_id:
-                values['sale_line_ids'] = [(6, 0, [move.sale_line_id.id])]
-        values = self._simulate_invoice_line_onchange(values)
+
+        values = self._simulate_invoice_line_onchange(values, price_unit=price)
         values.update({'name': name})
         return values
 
