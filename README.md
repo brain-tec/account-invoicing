@@ -28,7 +28,7 @@ addon | version | summary
 [account_invoice_force_number](account_invoice_force_number/) | 13.0.1.0.0 | Allows to force invoice numbering on specific invoices
 [account_invoice_pricelist](account_invoice_pricelist/) | 13.0.1.0.1 | Add partner pricelist on invoices
 [account_invoice_pricelist_sale](account_invoice_pricelist_sale/) | 13.0.1.0.1 | Module to fill pricelist from sales order in invoice.
-[account_invoice_refund_link](account_invoice_refund_link/) | 13.0.1.0.1 | Show links between refunds and their originator invoices
+[account_invoice_refund_link](account_invoice_refund_link/) | 13.0.1.1.0 | Show links between refunds and their originator invoices
 [account_invoice_search_by_reference](account_invoice_search_by_reference/) | 13.0.1.0.0 | Account invoice search by reference
 [account_invoice_section_sale_order](account_invoice_section_sale_order/) | 13.0.1.0.0 | For invoices targetting multiple sale order addsections with sale order name.
 [account_invoice_supplier_ref_reuse](account_invoice_supplier_ref_reuse/) | 13.0.1.0.0 | Makes it possible to reuse supplier invoice references
@@ -40,6 +40,7 @@ addon | version | summary
 [account_move_exception](account_move_exception/) | 13.0.1.0.0 | Custom exceptions on account move
 [account_move_post_block](account_move_post_block/) | 13.0.1.0.0 | Account Move Post Block
 [account_move_tier_validation](account_move_tier_validation/) | 13.0.1.0.3 | Extends the functionality of Account Moves to support a tier validation process.
+[account_tax_group_widget_base_amount](account_tax_group_widget_base_amount/) | 13.0.1.0.0 | Adds base to tax group widget as it's put in the report
 [purchase_batch_invoicing](purchase_batch_invoicing/) | 13.0.1.0.0 | Make invoices for all ready purchase orders
 [purchase_stock_picking_return_invoicing](purchase_stock_picking_return_invoicing/) | 13.0.1.0.0 | Add an option to refund returned pickings
 [sale_order_invoicing_grouping_criteria](sale_order_invoicing_grouping_criteria/) | 13.0.2.0.1 | Sales order invoicing grouping criteria
