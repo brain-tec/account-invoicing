@@ -33,6 +33,7 @@ addon | version | summary
 [account_invoice_section_sale_order](account_invoice_section_sale_order/) | 13.0.1.0.0 | For invoices targetting multiple sale order addsections with sale order name.
 [account_invoice_supplier_ref_reuse](account_invoice_supplier_ref_reuse/) | 13.0.1.0.0 | Makes it possible to reuse supplier invoice references
 [account_invoice_supplier_ref_unique](account_invoice_supplier_ref_unique/) | 13.0.1.0.3 | Checks that supplier invoices are not entered twice
+[account_invoice_tax_note](account_invoice_tax_note/) | 13.0.1.0.0 | Print tax notes on customer invoices
 [account_invoice_transmit_method](account_invoice_transmit_method/) | 13.0.1.1.0 | Configure invoice transmit method (email, post, portal, ...)
 [account_invoice_validation_queued](account_invoice_validation_queued/) | 13.0.2.0.0 | Enqueue account invoice validation
 [account_invoice_warn_message](account_invoice_warn_message/) | 13.0.1.0.0 | Add a popup warning on invoice to ensure warning is populated
@@ -41,7 +42,7 @@ addon | version | summary
 [account_move_post_block](account_move_post_block/) | 13.0.1.0.0 | Account Move Post Block
 [account_move_tier_validation](account_move_tier_validation/) | 13.0.1.0.3 | Extends the functionality of Account Moves to support a tier validation process.
 [account_tax_group_widget_base_amount](account_tax_group_widget_base_amount/) | 13.0.1.0.0 | Adds base to tax group widget as it's put in the report
-[purchase_batch_invoicing](purchase_batch_invoicing/) | 13.0.1.0.0 | Make invoices for all ready purchase orders
+[purchase_batch_invoicing](purchase_batch_invoicing/) | 13.0.1.0.1 | Make invoices for all ready purchase orders
 [purchase_stock_picking_return_invoicing](purchase_stock_picking_return_invoicing/) | 13.0.1.0.0 | Add an option to refund returned pickings
 [sale_order_invoicing_grouping_criteria](sale_order_invoicing_grouping_criteria/) | 13.0.2.0.1 | Sales order invoicing grouping criteria
 [sale_order_invoicing_queued](sale_order_invoicing_queued/) | 13.0.2.0.1 | Enqueue sales order invoicing
