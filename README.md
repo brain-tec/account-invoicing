@@ -23,7 +23,7 @@ addon | version | maintainers | summary
 [account_global_discount](account_global_discount/) | 13.0.2.0.1 |  | Account Global Discount
 [account_invoice_base_invoicing_mode](account_invoice_base_invoicing_mode/) | 13.0.1.0.1 |  | Base module for handling multiple invoicing mode
 [account_invoice_check_picking_date](account_invoice_check_picking_date/) | 13.0.1.0.0 | [![carlosdauden](https://github.com/carlosdauden.png?size=30px)](https://github.com/carlosdauden) | Check if date of pickings match with invoice date
-[account_invoice_check_total](account_invoice_check_total/) | 13.0.1.0.0 |  | Check if the verification total is equal to the bill's total
+[account_invoice_check_total](account_invoice_check_total/) | 13.0.1.0.1 |  | Check if the verification total is equal to the bill's total
 [account_invoice_date_due](account_invoice_date_due/) | 13.0.1.0.1 | [![luisg123v](https://github.com/luisg123v.png?size=30px)](https://github.com/luisg123v) [![joao-p-marques](https://github.com/joao-p-marques.png?size=30px)](https://github.com/joao-p-marques) | Update Invoice's Due Date
 [account_invoice_fiscal_position_update](account_invoice_fiscal_position_update/) | 13.0.1.0.4 |  | Changing the fiscal position of an invoice will auto-update invoice lines
 [account_invoice_fixed_discount](account_invoice_fixed_discount/) | 13.0.1.0.2 |  | Allows to apply fixed amount discounts in invoices.
@@ -46,7 +46,7 @@ addon | version | maintainers | summary
 [account_invoice_transmit_method](account_invoice_transmit_method/) | 13.0.1.1.0 | [![alexis-via](https://github.com/alexis-via.png?size=30px)](https://github.com/alexis-via) | Configure invoice transmit method (email, post, portal, ...)
 [account_invoice_tree_currency](account_invoice_tree_currency/) | 13.0.1.0.0 |  | Show currencies in the invoice tree view
 [account_invoice_validation_queued](account_invoice_validation_queued/) | 13.0.2.0.0 | [![pedrobaeza](https://github.com/pedrobaeza.png?size=30px)](https://github.com/pedrobaeza) | Enqueue account invoice validation
-[account_invoice_warn_message](account_invoice_warn_message/) | 13.0.1.0.0 |  | Add a popup warning on invoice to ensure warning is populated
+[account_invoice_warn_message](account_invoice_warn_message/) | 13.0.1.0.1 |  | Add a popup warning on invoice to ensure warning is populated
 [account_menu_invoice_refund](account_menu_invoice_refund/) | 13.0.1.0.0 | [![kittiu](https://github.com/kittiu.png?size=30px)](https://github.com/kittiu) | New invoice menu that combine invoices and refunds
 [account_move_exception](account_move_exception/) | 13.0.1.0.1 |  | Custom exceptions on account move
 [account_move_post_block](account_move_post_block/) | 13.0.1.0.2 |  | Account Move Post Block
