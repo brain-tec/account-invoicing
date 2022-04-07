@@ -1,17 +1,19 @@
-[![Runbot Status](https://runbot.odoo-community.org/runbot/badge/flat/95/13.0.svg)](https://runbot.odoo-community.org/runbot/repo/github-com-oca-account-invoicing-95)
-[![Build Status](https://travis-ci.org/OCA/account-invoicing.svg?branch=13.0)](https://travis-ci.org/OCA/account-invoicing)
-[![Coverage Status](https://coveralls.io/repos/OCA/account-invoicing/badge.svg?branch=13.0)](https://coveralls.io/r/OCA/account-invoicing?branch=13.0)
 
-OCA account invoicing modules for Odoo
-======================================
+[![Runboat](https://img.shields.io/badge/runboat-Try%20me-875A7B.png)](https://runboat.odoo-community.org/builds?repo=OCA/account-invoicing&target_branch=13.0)
+[![Pre-commit Status](https://github.com/OCA/account-invoicing/actions/workflows/pre-commit.yml/badge.svg?branch=13.0)](https://github.com/OCA/account-invoicing/actions/workflows/pre-commit.yml?query=branch%3A13.0)
+[![Build Status](https://github.com/OCA/account-invoicing/actions/workflows/test.yml/badge.svg?branch=13.0)](https://github.com/OCA/account-invoicing/actions/workflows/test.yml?query=branch%3A13.0)
+[![codecov](https://codecov.io/gh/OCA/account-invoicing/branch/13.0/graph/badge.svg)](https://codecov.io/gh/OCA/account-invoicing)
+[![Translation Status](https://translation.odoo-community.org/widgets/account-invoicing-13-0/-/svg-badge.svg)](https://translation.odoo-community.org/engage/account-invoicing-13-0/?utm_source=widget)
 
-This project aim to deal with modules related to manage invoicing in a generic way. You'll find modules that:
+<!-- /!\ do not modify above this line -->
 
- - Add a validation step on invoicing process
- - Add check on invoice
- - Unit rounded invoice
- - Utils and ease of use for invoicing with OpenERP
- - ...
+# OCA account invoicing modules for Odoo
+
+This project aim to deal with modules related to manage invoicing in a generic way
+
+<!-- /!\ do not modify below this line -->
+
+<!-- prettier-ignore-start -->
 
 [//]: # (addons)
 
@@ -36,7 +38,7 @@ addon | version | maintainers | summary
 [account_invoice_mode_monthly](account_invoice_mode_monthly/) | 13.0.1.0.1 |  | Create invoices automatically on a monthly basis.
 [account_invoice_pricelist](account_invoice_pricelist/) | 13.0.1.0.4 |  | Add partner pricelist on invoices
 [account_invoice_pricelist_sale](account_invoice_pricelist_sale/) | 13.0.1.0.1 |  | Module to fill pricelist from sales order in invoice.
-[account_invoice_refund_line_selection](account_invoice_refund_line_selection/) | 13.0.1.0.3 |  | This module allows the user to refund specific lines in a invoice
+[account_invoice_refund_line_selection](account_invoice_refund_line_selection/) | 13.0.1.0.4 |  | This module allows the user to refund specific lines in a invoice
 [account_invoice_refund_link](account_invoice_refund_link/) | 13.0.1.1.1 |  | Show links between refunds and their originator invoices
 [account_invoice_refund_reinvoice](account_invoice_refund_reinvoice/) | 13.0.1.0.0 |  | Allow to Reinvoice a Refund
 [account_invoice_search_by_reference](account_invoice_search_by_reference/) | 13.0.1.0.0 |  | Account invoice search by reference
@@ -56,9 +58,9 @@ addon | version | maintainers | summary
 [account_invoice_warn_message](account_invoice_warn_message/) | 13.0.1.0.1 |  | Add a popup warning on invoice to ensure warning is populated
 [account_menu_invoice_refund](account_menu_invoice_refund/) | 13.0.1.0.0 | [![kittiu](https://github.com/kittiu.png?size=30px)](https://github.com/kittiu) | New invoice menu that combine invoices and refunds
 [account_move_exception](account_move_exception/) | 13.0.1.0.1 |  | Custom exceptions on account move
-[account_move_post_block](account_move_post_block/) | 13.0.1.0.2 |  | Account Move Post Block
+[account_move_post_block](account_move_post_block/) | 13.0.2.0.0 |  | Account Move Post Block
 [account_move_tier_validation](account_move_tier_validation/) | 13.0.1.0.4 |  | Extends the functionality of Account Moves to support a tier validation process.
-[account_move_tier_validation_approver](account_move_tier_validation_approver/) | 13.0.1.0.1 |  | Account Move Tier Validation Approver
+[account_move_tier_validation_approver](account_move_tier_validation_approver/) | 13.0.2.0.0 |  | Account Move Tier Validation Approver
 [account_tax_group_widget_base_amount](account_tax_group_widget_base_amount/) | 13.0.1.0.0 | [![chienandalu](https://github.com/chienandalu.png?size=30px)](https://github.com/chienandalu) | Adds base to tax group widget as it's put in the report
 [product_supplierinfo_for_customer_invoice](product_supplierinfo_for_customer_invoice/) | 13.0.1.0.0 |  | Based on product_customer_code, this module loads in every account invoice the customer code defined in the product
 [purchase_batch_invoicing](purchase_batch_invoicing/) | 13.0.1.1.0 |  | Make invoices for all ready purchase orders
@@ -73,13 +75,17 @@ addon | version | maintainers | summary
 
 [//]: # (end addons)
 
-Translation Status
-------------------
+<!-- prettier-ignore-end -->
 
-[![Translation status](https://translation.odoo-community.org/widgets/account-invoicing-13-0/-/multi-auto.svg)](https://translation.odoo-community.org/engage/account-invoicing-13-0/?utm_source=widget)
+## Licenses
+
+This repository is licensed under [AGPL-3.0](LICENSE).
+
+However, each module can have a totally different license, as long as they adhere to Odoo Community Association (OCA)
+policy. Consult each module's `__manifest__.py` file, which contains a `license` key
+that explains its license.
 
 ----
-
-OCA, or the [Odoo Community Association](http://odoo-community.org/), is a nonprofit organization whose
-mission is to support the collaborative development of Odoo features and
-promote its widespread use.
+OCA, or the [Odoo Community Association](http://odoo-community.org/), is a nonprofit
+organization whose mission is to support the collaborative development of Odoo features
+and promote its widespread use.
