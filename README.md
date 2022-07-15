@@ -33,6 +33,7 @@ addon | version | maintainers | summary
 [account_invoice_fixed_discount](account_invoice_fixed_discount/) | 14.0.1.0.3 |  | Allows to apply fixed amount discounts in invoices.
 [account_invoice_force_number](account_invoice_force_number/) | 14.0.1.0.1 |  | Allows to force invoice numbering on specific invoices
 [account_invoice_line_description](account_invoice_line_description/) | 14.0.1.0.1 |  | Account invoice line description
+[account_invoice_line_sequence](account_invoice_line_sequence/) | 14.0.1.0.0 |  | Adds sequence field on invoice lines to manage its order.
 [account_invoice_mode_at_shipping](account_invoice_mode_at_shipping/) | 14.0.1.1.0 |  | Create invoices automatically when goods are shipped.
 [account_invoice_mode_monthly](account_invoice_mode_monthly/) | 14.0.1.1.0 |  | Create invoices automatically on a monthly basis.
 [account_invoice_mode_weekly](account_invoice_mode_weekly/) | 14.0.1.1.0 |  | Create invoices automatically on a weekly basis.
@@ -60,6 +61,7 @@ addon | version | maintainers | summary
 [account_move_original_partner](account_move_original_partner/) | 14.0.1.0.0 |  | Display original customers when creating invoices from multiple sale orders.
 [account_move_propagate_ref](account_move_propagate_ref/) | 14.0.1.0.1 |  | Propagate ref when reversing and recreating an accounting move
 [account_move_tier_validation](account_move_tier_validation/) | 14.0.1.0.2 |  | Extends the functionality of Account Moves to support a tier validation process.
+[account_receipt_print](account_receipt_print/) | 14.0.1.0.0 |  | Enable printing in sale and purchase receipts
 [product_supplierinfo_for_customer_invoice](product_supplierinfo_for_customer_invoice/) | 14.0.1.0.0 |  | Based on product_customer_code, this module loads in every account invoice the customer code defined in the product
 [purchase_stock_picking_return_invoicing](purchase_stock_picking_return_invoicing/) | 14.0.1.2.0 | [![pedrobaeza](https://github.com/pedrobaeza.png?size=30px)](https://github.com/pedrobaeza) [![MiquelRForgeFlow](https://github.com/MiquelRForgeFlow.png?size=30px)](https://github.com/MiquelRForgeFlow) | Add an option to refund returned pickings
 [sale_line_refund_to_invoice_qty](sale_line_refund_to_invoice_qty/) | 14.0.1.0.0 |  | Allow deciding whether refunded quantity should be considered as quantity to reinvoice
