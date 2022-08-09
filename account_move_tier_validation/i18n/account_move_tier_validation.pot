@@ -14,20 +14,21 @@ msgstr ""
 "Plural-Forms: \n"
 
 #. module: account_move_tier_validation
-#: model_terms:ir.ui.view,arch_db:account_move_tier_validation.view_move_form
-msgid ""
-"<i class=\"fa fa-info-circle\"/>This Invoice needs to be\n"
-"                        validated."
+#: code:addons/account_move_tier_validation/models/account_move.py:0
+#, python-format
+msgid "Bill"
 msgstr ""
 
 #. module: account_move_tier_validation
-#: model_terms:ir.ui.view,arch_db:account_move_tier_validation.view_move_form
-msgid "<i class=\"fa fa-thumbs-down\"/> Operation has been <b>rejected</b>."
+#: code:addons/account_move_tier_validation/models/account_move.py:0
+#, python-format
+msgid "Credit Note"
 msgstr ""
 
 #. module: account_move_tier_validation
-#: model_terms:ir.ui.view,arch_db:account_move_tier_validation.view_move_form
-msgid "<i class=\"fa fa-thumbs-up\"/> Operation has been <b>validated</b>!"
+#: code:addons/account_move_tier_validation/models/account_move.py:0
+#, python-format
+msgid "Invoice"
 msgstr ""
 
 #. module: account_move_tier_validation
@@ -58,6 +59,12 @@ msgstr ""
 #. module: account_move_tier_validation
 #: model_terms:ir.ui.view,arch_db:account_move_tier_validation.view_account_invoice_filter
 msgid "Needs my Review"
+msgstr ""
+
+#. module: account_move_tier_validation
+#: code:addons/account_move_tier_validation/models/account_move.py:0
+#, python-format
+msgid "Refund"
 msgstr ""
 
 #. module: account_move_tier_validation

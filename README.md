@@ -37,11 +37,13 @@ addon | version | maintainers | summary
 [account_invoice_line_sequence](account_invoice_line_sequence/) | 13.0.1.0.0 |  | Adds sequence field on invoice lines to manage its order.
 [account_invoice_mode_at_shipping](account_invoice_mode_at_shipping/) | 13.0.1.0.1 |  | Create invoices automatically when goods are shipped.
 [account_invoice_mode_monthly](account_invoice_mode_monthly/) | 13.0.1.0.1 |  | Create invoices automatically on a monthly basis.
+[account_invoice_origin_link](account_invoice_origin_link/) | 13.0.1.0.0 | [![GuillemCForgeFlow](https://github.com/GuillemCForgeFlow.png?size=30px)](https://github.com/GuillemCForgeFlow) | Add clickable link in invoice source document.
 [account_invoice_pricelist](account_invoice_pricelist/) | 13.0.1.0.4 |  | Add partner pricelist on invoices
 [account_invoice_pricelist_sale](account_invoice_pricelist_sale/) | 13.0.1.0.1 |  | Module to fill pricelist from sales order in invoice.
 [account_invoice_refund_line_selection](account_invoice_refund_line_selection/) | 13.0.1.1.0 |  | This module allows the user to refund specific lines in a invoice
 [account_invoice_refund_link](account_invoice_refund_link/) | 13.0.1.1.1 |  | Show links between refunds and their originator invoices
 [account_invoice_refund_reinvoice](account_invoice_refund_reinvoice/) | 13.0.1.0.0 |  | Allow to Reinvoice a Refund
+[account_invoice_sale_origin_link](account_invoice_sale_origin_link/) | 13.0.1.0.0 | [![GuillemCForgeFlow](https://github.com/GuillemCForgeFlow.png?size=30px)](https://github.com/GuillemCForgeFlow) | Add link to the Sale Order in invoice source document.
 [account_invoice_search_by_reference](account_invoice_search_by_reference/) | 13.0.1.0.0 |  | Account invoice search by reference
 [account_invoice_section_sale_order](account_invoice_section_sale_order/) | 13.0.1.1.0 |  | For invoices targetting multiple sale order addsections with sale order name.
 [account_invoice_show_currency_rate](account_invoice_show_currency_rate/) | 13.0.1.0.2 | [![victoralmau](https://github.com/victoralmau.png?size=30px)](https://github.com/victoralmau) | Show currency rate in invoices.
@@ -60,8 +62,9 @@ addon | version | maintainers | summary
 [account_menu_invoice_refund](account_menu_invoice_refund/) | 13.0.1.0.0 | [![kittiu](https://github.com/kittiu.png?size=30px)](https://github.com/kittiu) | New invoice menu that combine invoices and refunds
 [account_move_exception](account_move_exception/) | 13.0.1.0.1 |  | Custom exceptions on account move
 [account_move_post_block](account_move_post_block/) | 13.0.2.0.0 |  | Account Move Post Block
-[account_move_tier_validation](account_move_tier_validation/) | 13.0.1.0.4 |  | Extends the functionality of Account Moves to support a tier validation process.
+[account_move_tier_validation](account_move_tier_validation/) | 13.0.1.1.1 |  | Extends the functionality of Account Moves to support a tier validation process.
 [account_move_tier_validation_approver](account_move_tier_validation_approver/) | 13.0.2.0.0 |  | Account Move Tier Validation Approver
+[account_move_tier_validation_forward](account_move_tier_validation_forward/) | 13.0.1.0.0 |  | Account Move Tier Validation - Forward Option
 [account_tax_group_widget_base_amount](account_tax_group_widget_base_amount/) | 13.0.1.0.0 | [![chienandalu](https://github.com/chienandalu.png?size=30px)](https://github.com/chienandalu) | Adds base to tax group widget as it's put in the report
 [product_supplierinfo_for_customer_invoice](product_supplierinfo_for_customer_invoice/) | 13.0.1.0.0 |  | Based on product_customer_code, this module loads in every account invoice the customer code defined in the product
 [purchase_batch_invoicing](purchase_batch_invoicing/) | 13.0.1.1.0 |  | Make invoices for all ready purchase orders
