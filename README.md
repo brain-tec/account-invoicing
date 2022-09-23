@@ -25,6 +25,7 @@ addon | version | maintainers | summary
 [account_invoice_check_total](account_invoice_check_total/) | 15.0.1.0.0 |  | Check if the verification total is equal to the bill's total
 [account_invoice_date_due](account_invoice_date_due/) | 15.0.1.0.0 | [![luisg123v](https://github.com/luisg123v.png?size=30px)](https://github.com/luisg123v) [![joao-p-marques](https://github.com/joao-p-marques.png?size=30px)](https://github.com/joao-p-marques) | Update Invoice's Due Date
 [account_invoice_fiscal_position_update](account_invoice_fiscal_position_update/) | 15.0.1.0.2 | [![alexis-via](https://github.com/alexis-via.png?size=30px)](https://github.com/alexis-via) | Changing the fiscal position of an invoice will auto-update invoice lines
+[account_invoice_payment_term_date_due](account_invoice_payment_term_date_due/) | 15.0.1.0.0 | [![ivantodorovich](https://github.com/ivantodorovich.png?size=30px)](https://github.com/ivantodorovich) | Display invoices date due when using payment terms
 [account_invoice_refund_link](account_invoice_refund_link/) | 15.0.1.0.1 |  | Show links between refunds and their originator invoices.
 [account_invoice_search_by_reference](account_invoice_search_by_reference/) | 15.0.1.0.0 |  | Account invoice search by reference
 [account_invoice_section_sale_order](account_invoice_section_sale_order/) | 15.0.1.0.2 |  | For invoices targetting multiple sale order addsections with sale order name.
@@ -36,7 +37,7 @@ addon | version | maintainers | summary
 [account_invoice_triple_discount](account_invoice_triple_discount/) | 15.0.1.0.0 |  | Manage triple discount on invoice lines
 [account_move_exception](account_move_exception/) | 15.0.1.0.0 |  | Custom exceptions on account move
 [account_move_post_block](account_move_post_block/) | 15.0.1.0.1 |  | Account Move Post Block
-[account_move_tier_validation](account_move_tier_validation/) | 15.0.1.1.0 |  | Extends the functionality of Account Moves to support a tier validation process.
+[account_move_tier_validation](account_move_tier_validation/) | 15.0.1.1.1 |  | Extends the functionality of Account Moves to support a tier validation process.
 [account_tax_group_widget_base_amount](account_tax_group_widget_base_amount/) | 15.0.1.0.0 | [![chienandalu](https://github.com/chienandalu.png?size=30px)](https://github.com/chienandalu) | Adds base to tax group widget as it's put in the report
 [sale_line_refund_to_invoice_qty](sale_line_refund_to_invoice_qty/) | 15.0.1.0.0 |  | Allow deciding whether refunded quantity should be considered as quantity to reinvoice
 [sale_order_invoicing_grouping_criteria](sale_order_invoicing_grouping_criteria/) | 15.0.1.0.2 | [![pedrobaeza](https://github.com/pedrobaeza.png?size=30px)](https://github.com/pedrobaeza) | Sales order invoicing grouping criteria
