@@ -10,36 +10,30 @@ class TestGlobalDiscount(common.TransactionCase):
     @classmethod
     def setUpClass(cls):
         super().setUpClass()
-        cls.account_type = cls.env["account.account.type"].create(
-            {"name": "Test", "type": "other", "internal_group": "income"}
+        cls.env.ref("base_global_discount.group_global_discount").write(
+            {"users": [(4, cls.env.user.id)]}
         )
         cls.account = cls.env["account.account"].create(
             {
                 "name": "Test account",
                 "code": "TEST",
-                "user_type_id": cls.account_type.id,
+                "account_type": "income_other",
                 "reconcile": True,
             }
-        )
-        cls.account_type_receivable = cls.env["account.account.type"].create(
-            {"name": "Test", "type": "receivable", "internal_group": "income"}
         )
         cls.account_receivable = cls.env["account.account"].create(
             {
                 "name": "Test receivable account",
                 "code": "ACCRV",
-                "user_type_id": cls.account_type_receivable.id,
+                "account_type": "asset_receivable",
                 "reconcile": True,
             }
-        )
-        cls.account_type_payable = cls.env["account.account.type"].create(
-            {"name": "Test", "type": "payable", "internal_group": "income"}
         )
         cls.account_payable = cls.env["account.account"].create(
             {
                 "name": "Test receivable account",
                 "code": "ACCPAY",
-                "user_type_id": cls.account_type_payable.id,
+                "account_type": "liability_payable",
                 "reconcile": True,
             }
         )
@@ -129,7 +123,7 @@ class TestGlobalDiscount(common.TransactionCase):
         self.assertAlmostEqual(invoice_tax_line.tax_base_amount, 200.0)
         self.assertAlmostEqual(invoice_tax_line.balance, 30.0)
         # Global discounts are applied to the base and taxes are recomputed:
-        # 200 - 50% (global disc. 1) =  100
+        # 200 - 50% (global disc. 3) =  100
         with Form(self.invoice) as invoice_form:
             invoice_form.global_discount_ids.clear()
             invoice_form.global_discount_ids.add(self.global_discount_3)
