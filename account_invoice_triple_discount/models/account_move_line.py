@@ -48,10 +48,19 @@ class AccountMoveLine(models.Model):
                 tmp_values["discount"] = old_discount
             old_values.append(tmp_values)
         records = super(AccountMoveLine, self).create(values_list)
+
+        self.flush(self._fields, records)
         for index, record in enumerate(records):
-            values = old_values[index]
-            if values:
-                record.write(old_values[index])
+            values = {
+                'id': record.id,
+                **old_values[index],
+            }
+            if values.get('discount', False):
+                self.env.cr.execute(
+                    'UPDATE account_move_line SET discount = %(discount)s WHERE id=%(id)s',
+                    values,
+                )
+        self.invalidate_cache(ids=records.ids)
         return records
 
     @api.onchange(
