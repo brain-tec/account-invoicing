@@ -19,11 +19,13 @@ setuptools.setup(
         'odoo-addon-account_invoice_triple_discount>=16.0dev,<16.1dev',
         'odoo-addon-account_menu_invoice_refund>=16.0dev,<16.1dev',
         'odoo-addon-account_receipt_journal>=16.0dev,<16.1dev',
+        'odoo-addon-account_receipt_send>=16.0dev,<16.1dev',
         'odoo-addon-account_tax_change>=16.0dev,<16.1dev',
         'odoo-addon-partner_invoicing_mode>=16.0dev,<16.1dev',
         'odoo-addon-partner_invoicing_mode_at_shipping>=16.0dev,<16.1dev',
         'odoo-addon-partner_invoicing_mode_monthly>=16.0dev,<16.1dev',
         'odoo-addon-purchase_stock_picking_return_invoicing>=16.0dev,<16.1dev',
+        'odoo-addon-sale_order_invoicing_grouping_criteria>=16.0dev,<16.1dev',
         'odoo-addon-stock_picking_return_refund_option>=16.0dev,<16.1dev',
     ],
     classifiers=[
