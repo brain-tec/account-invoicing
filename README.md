@@ -22,6 +22,7 @@ Available addons
 addon | version | maintainers | summary
 --- | --- | --- | ---
 [account_global_discount](account_global_discount/) | 15.0.1.0.1 |  | Account Global Discount
+[account_invoice_analytic_search](account_invoice_analytic_search/) | 15.0.1.0.0 |  | Search invoices by analytic account or by project manager
 [account_invoice_block_payment](account_invoice_block_payment/) | 15.0.1.0.0 |  | Module to block payment of invoices
 [account_invoice_blocking](account_invoice_blocking/) | 15.0.1.0.1 |  | Set a blocking (No Follow-up) flag on invoices
 [account_invoice_change_currency](account_invoice_change_currency/) | 15.0.2.0.0 | [![luisg123v](https://github.com/luisg123v.png?size=30px)](https://github.com/luisg123v) [![rolandojduartem](https://github.com/rolandojduartem.png?size=30px)](https://github.com/rolandojduartem) | Allows to change currency of Invoice by wizard
@@ -36,7 +37,7 @@ addon | version | maintainers | summary
 [account_invoice_pricelist](account_invoice_pricelist/) | 15.0.1.0.2 |  | Add partner pricelist on invoices
 [account_invoice_pricelist_sale](account_invoice_pricelist_sale/) | 15.0.1.0.0 |  | Module to fill pricelist from sales order in invoice.
 [account_invoice_refund_link](account_invoice_refund_link/) | 15.0.1.0.1 |  | Show links between refunds and their originator invoices.
-[account_invoice_refund_reason](account_invoice_refund_reason/) | 15.0.1.0.2 | [![max3903](https://github.com/max3903.png?size=30px)](https://github.com/max3903) | Account Invoice Refund Reason.
+[account_invoice_refund_reason](account_invoice_refund_reason/) | 15.0.1.0.3 | [![max3903](https://github.com/max3903.png?size=30px)](https://github.com/max3903) | Account Invoice Refund Reason.
 [account_invoice_search_by_reference](account_invoice_search_by_reference/) | 15.0.1.0.0 |  | Account invoice search by reference
 [account_invoice_section_sale_order](account_invoice_section_sale_order/) | 15.0.1.0.2 |  | For invoices targetting multiple sale order addsections with sale order name.
 [account_invoice_supplier_ref_unique](account_invoice_supplier_ref_unique/) | 15.0.1.0.0 |  | Checks that supplier invoices are not entered twice
@@ -67,7 +68,7 @@ addon | version | maintainers | summary
 [sale_line_refund_to_invoice_qty](sale_line_refund_to_invoice_qty/) | 15.0.1.0.1 |  | Allow deciding whether refunded quantity should be considered as quantity to reinvoice
 [sale_order_invoicing_grouping_criteria](sale_order_invoicing_grouping_criteria/) | 15.0.1.0.2 | [![pedrobaeza](https://github.com/pedrobaeza.png?size=30px)](https://github.com/pedrobaeza) | Sales order invoicing grouping criteria
 [sale_order_invoicing_qty_percentage](sale_order_invoicing_qty_percentage/) | 15.0.1.0.0 | [![pedrobaeza](https://github.com/pedrobaeza.png?size=30px)](https://github.com/pedrobaeza) | Sales order invoicing by percentage of the quantity
-[sale_timesheet_invoice_description](sale_timesheet_invoice_description/) | 15.0.1.0.1 |  | Add timesheet details in invoice line
+[sale_timesheet_invoice_description](sale_timesheet_invoice_description/) | 15.0.1.0.2 |  | Add timesheet details in invoice line
 [stock_picking_invoicing](stock_picking_invoicing/) | 15.0.1.0.0 |  | Stock Picking Invoicing
 [stock_picking_invoicing_incoterm](stock_picking_invoicing_incoterm/) | 15.0.1.0.0 |  | Stock Picking Invoicing Incoterm
 [stock_picking_return_refund_option](stock_picking_return_refund_option/) | 15.0.1.0.1 | [![sergio-teruel](https://github.com/sergio-teruel.png?size=30px)](https://github.com/sergio-teruel) | Update the refund options in pickings
