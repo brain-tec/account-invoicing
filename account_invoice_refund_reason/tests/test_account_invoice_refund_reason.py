@@ -3,10 +3,10 @@
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl).
 import datetime
 
-from odoo.tests.common import SavepointCase
+from odoo.tests.common import TransactionCase
 
 
-class TestAccountInvoiceRefundReason(SavepointCase):
+class TestAccountInvoiceRefundReason(TransactionCase):
     @classmethod
     def setUpClass(cls):
         super().setUpClass()
@@ -75,7 +75,6 @@ class TestAccountInvoiceRefundReason(SavepointCase):
                 journal_id=self.account_invoice_customer0.journal_id.id,
             )
         )
-        self.account_invoice_refund_0._onchange_reason_id()
         self.assertEqual(
             self.account_invoice_refund_0.reason,
             self.account_invoice_refund_0.reason_id.name,
