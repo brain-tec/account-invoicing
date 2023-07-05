@@ -55,7 +55,7 @@ class AccountMoveLine(models.Model):
                 'id': record.id,
                 **old_values[index],
             }
-            if values.get('discount', False):
+            if 'discount' in values:
                 self.env.cr.execute(
                     'UPDATE account_move_line SET discount = %(discount)s WHERE id=%(id)s',
                     values,
