@@ -188,5 +188,11 @@ class TestInvoiceTripleDiscount(TransactionCase):
             line_form.tax_ids.add(self.tax)
         invoice = invoice_form.save()
 
+        # All discounts are added and temporarily stored in
+        # `discount` to use Odoo's default discount calculation.
+        # Ensure that afterwards the original discount is set again.
         self.assertEqual(invoice.invoice_line_ids[0].discount, 0)
+        # Ensure that the tax calculation is correct and includes the
+        # discount.
+        # 10 units * 1 $/unit * (1 - 15% discount) * 15% tax = 1.28$
         self.assertEqual(invoice.amount_tax, 1.28)
