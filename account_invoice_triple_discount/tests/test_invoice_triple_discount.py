@@ -165,3 +165,28 @@ class TestInvoiceTripleDiscount(TransactionCase):
         invoice_form.save()
 
         self.assertEqual(invoice.amount_tax, 177.61)
+
+    def test_05_normal_discount_was_zero(self):
+        """
+        Tests the resetting of the normal discount.
+        """
+        invoice_form = Form(
+            self.AccountMove.with_context(
+                default_move_type="out_invoice",
+                default_journal_id=self.sale_journal.id,
+            )
+        )
+        invoice_form.partner_id = self.partner
+
+        with invoice_form.invoice_line_ids.new() as line_form:
+            line_form.name = "Line 1"
+            line_form.quantity = 10
+            line_form.price_unit = 1.0
+            line_form.discount = 0.0
+            line_form.discount2 = 15.0
+            line_form.tax_ids.clear()
+            line_form.tax_ids.add(self.tax)
+        invoice = invoice_form.save()
+
+        self.assertEqual(invoice.invoice_line_ids[0].discount, 0)
+        self.assertEqual(invoice.amount_tax, 1.28)
