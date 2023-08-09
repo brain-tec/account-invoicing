@@ -36,7 +36,7 @@ addon | version | maintainers | summary
 [account_invoice_force_number](account_invoice_force_number/) | 14.0.1.0.1 |  | Allows to force invoice numbering on specific invoices
 [account_invoice_line_description](account_invoice_line_description/) | 14.0.1.0.1 |  | Account invoice line description
 [account_invoice_line_sequence](account_invoice_line_sequence/) | 14.0.1.0.1 |  | Adds sequence field on invoice lines to manage its order.
-[account_invoice_mass_sending](account_invoice_mass_sending/) | 14.0.1.0.1 | [![jguenat](https://github.com/jguenat.png?size=30px)](https://github.com/jguenat) | This addon adds a mass sending feature on invoices.
+[account_invoice_mass_sending](account_invoice_mass_sending/) | 14.0.2.0.0 | [![jguenat](https://github.com/jguenat.png?size=30px)](https://github.com/jguenat) | This addon adds a mass sending feature on invoices.
 [account_invoice_merge](account_invoice_merge/) | 14.0.1.0.1 |  | Merge invoices in draft
 [account_invoice_mode_at_shipping](account_invoice_mode_at_shipping/) | 14.0.1.1.0 |  | Create invoices automatically when goods are shipped.
 [account_invoice_mode_monthly](account_invoice_mode_monthly/) | 14.0.1.1.0 |  | Create invoices automatically on a monthly basis.
@@ -46,7 +46,7 @@ addon | version | maintainers | summary
 [account_invoice_pricelist](account_invoice_pricelist/) | 14.0.1.0.2 |  | Add partner pricelist on invoices
 [account_invoice_pricelist_sale](account_invoice_pricelist_sale/) | 14.0.1.0.0 |  | Module to fill pricelist from sales order in invoice.
 [account_invoice_refund_line_selection](account_invoice_refund_line_selection/) | 14.0.1.0.3 |  | This module allows the user to refund specific lines in a invoice
-[account_invoice_refund_link](account_invoice_refund_link/) | 14.0.1.0.3 |  | Show links between refunds and their originator invoices
+[account_invoice_refund_link](account_invoice_refund_link/) | 14.0.1.0.4 |  | Show links between refunds and their originator invoices
 [account_invoice_refund_reason](account_invoice_refund_reason/) | 14.0.1.1.0 | [![max3903](https://github.com/max3903.png?size=30px)](https://github.com/max3903) | Account Invoice Refund Reason.
 [account_invoice_refund_reason_skip_anglo_saxon](account_invoice_refund_reason_skip_anglo_saxon/) | 14.0.1.0.0 | [![ChrisOForgeFlow](https://github.com/ChrisOForgeFlow.png?size=30px)](https://github.com/ChrisOForgeFlow) | Account Invoice Refund Reason.
 [account_invoice_refund_reinvoice](account_invoice_refund_reinvoice/) | 14.0.1.0.0 |  | Allow to Reinvoice a Refund
