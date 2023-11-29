@@ -14,19 +14,49 @@ msgstr ""
 "Plural-Forms: \n"
 
 #. module: account_invoice_line_sequence
+#: model_terms:ir.ui.view,arch_db:account_invoice_line_sequence.res_config_settings_view_form
+msgid ""
+"<span class=\"fa fa-lg fa-building-o\" title=\"Values set here are company-"
+"specific.\" aria-label=\"Values set here are company-specific.\" "
+"role=\"img\"/>"
+msgstr ""
+
+#. module: account_invoice_line_sequence
 #: model_terms:ir.ui.view,arch_db:account_invoice_line_sequence.report_invoice_sequence_qweb
 msgid "<strong>Sequence</strong>"
 msgstr ""
 
 #. module: account_invoice_line_sequence
+#: model:ir.model,name:account_invoice_line_sequence.model_res_company
+msgid "Companies"
+msgstr ""
+
+#. module: account_invoice_line_sequence
+#: model:ir.model,name:account_invoice_line_sequence.model_res_config_settings
+msgid "Config Settings"
+msgstr ""
+
+#. module: account_invoice_line_sequence
 #: model:ir.model.fields,field_description:account_invoice_line_sequence.field_account_move__display_name
 #: model:ir.model.fields,field_description:account_invoice_line_sequence.field_account_move_line__display_name
+#: model:ir.model.fields,field_description:account_invoice_line_sequence.field_res_company__display_name
+#: model:ir.model.fields,field_description:account_invoice_line_sequence.field_res_config_settings__display_name
 msgid "Display Name"
+msgstr ""
+
+#. module: account_invoice_line_sequence
+#: model:ir.model.fields,help:account_invoice_line_sequence.field_res_company__invoice_line_sequence_recompute
+#: model:ir.model.fields,help:account_invoice_line_sequence.field_res_config_settings__invoice_line_sequence_recompute
+#: model_terms:ir.ui.view,arch_db:account_invoice_line_sequence.res_config_settings_view_form
+msgid ""
+"Enable if you want the invoice line sequence to recompute automatically."
 msgstr ""
 
 #. module: account_invoice_line_sequence
 #: model:ir.model.fields,field_description:account_invoice_line_sequence.field_account_move__id
 #: model:ir.model.fields,field_description:account_invoice_line_sequence.field_account_move_line__id
+#: model:ir.model.fields,field_description:account_invoice_line_sequence.field_res_company__id
+#: model:ir.model.fields,field_description:account_invoice_line_sequence.field_res_config_settings__id
 msgid "ID"
 msgstr ""
 
@@ -43,6 +73,8 @@ msgstr ""
 #. module: account_invoice_line_sequence
 #: model:ir.model.fields,field_description:account_invoice_line_sequence.field_account_move____last_update
 #: model:ir.model.fields,field_description:account_invoice_line_sequence.field_account_move_line____last_update
+#: model:ir.model.fields,field_description:account_invoice_line_sequence.field_res_company____last_update
+#: model:ir.model.fields,field_description:account_invoice_line_sequence.field_res_config_settings____last_update
 msgid "Last Modified on"
 msgstr ""
 
@@ -51,6 +83,12 @@ msgstr ""
 #: model:ir.model.fields,field_description:account_invoice_line_sequence.field_account_move__max_line_sequence
 #: model:ir.model.fields,field_description:account_invoice_line_sequence.field_account_payment__max_line_sequence
 msgid "Max sequence in lines"
+msgstr ""
+
+#. module: account_invoice_line_sequence
+#: model:ir.model.fields,field_description:account_invoice_line_sequence.field_res_company__invoice_line_sequence_recompute
+#: model:ir.model.fields,field_description:account_invoice_line_sequence.field_res_config_settings__invoice_line_sequence_recompute
+msgid "Recompute invoice line sequence"
 msgstr ""
 
 #. module: account_invoice_line_sequence
