@@ -33,6 +33,7 @@ addon | version | maintainers | summary
 [account_invoice_check_total](account_invoice_check_total/) | 12.0.1.1.1 |  | Check if the verification total is equal to the bill's total
 [account_invoice_confirm_popup](account_invoice_confirm_popup/) | 12.0.1.0.0 |  | Adds a confirmation popup before validation
 [account_invoice_date_due](account_invoice_date_due/) | 12.0.1.1.0 | [![luisg123v](https://github.com/luisg123v.png?size=30px)](https://github.com/luisg123v) | Update Invoice's Due Date
+[account_invoice_default_code_column](account_invoice_default_code_column/) | 12.0.1.0.1 | [![legalsylvain](https://github.com/legalsylvain.png?size=30px)](https://github.com/legalsylvain) | Display Default code product in a dedicated column on invoice reports
 [account_invoice_fiscal_position_update](account_invoice_fiscal_position_update/) | 12.0.1.0.2 |  | Changing the fiscal position of an invoice will auto-update invoice lines
 [account_invoice_fix_tax_rounding](account_invoice_fix_tax_rounding/) | 12.0.1.0.0 |  | Fix invoice tax rounding globally
 [account_invoice_fixed_discount](account_invoice_fixed_discount/) | 12.0.1.0.1 |  | Allows to apply fixed amount discounts in invoices.
@@ -67,6 +68,7 @@ addon | version | maintainers | summary
 [account_invoice_transmit_method](account_invoice_transmit_method/) | 12.0.2.0.0 |  | Configure invoice transmit method (email, post, portal, ...)
 [account_invoice_transmit_method_substitution_rule](account_invoice_transmit_method_substitution_rule/) | 12.0.1.0.0 |  | This addon allow to set substitution rules for transmit method
 [account_invoice_triple_discount](account_invoice_triple_discount/) | 12.0.1.0.1 |  | Manage triple discount on invoice lines
+[account_invoice_uom_column](account_invoice_uom_column/) | 12.0.1.0.1 | [![legalsylvain](https://github.com/legalsylvain.png?size=30px)](https://github.com/legalsylvain) | Display UoM invoice line in a dedicated column on invoice reports
 [account_invoice_validation_queued](account_invoice_validation_queued/) | 12.0.1.0.0 | [![pedrobaeza](https://github.com/pedrobaeza.png?size=30px)](https://github.com/pedrobaeza) | Enqueue account invoice validation
 [account_invoice_view_payment](account_invoice_view_payment/) | 12.0.1.0.1 |  | Access to the payment from an invoice
 [account_menu_invoice_refund](account_menu_invoice_refund/) | 12.0.2.0.1 | [![kittiu](https://github.com/kittiu.png?size=30px)](https://github.com/kittiu) | New invoice menu that combine invoices and refunds
