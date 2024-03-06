@@ -78,8 +78,10 @@ addon | version | maintainers | summary
 [account_move_tier_validation](account_move_tier_validation/) | 14.0.1.1.0 |  | Extends the functionality of Account Moves to support a tier validation process.
 [account_move_tier_validation_approver](account_move_tier_validation_approver/) | 14.0.1.0.0 |  | Account Move Tier Validation Approver
 [account_move_tier_validation_forward](account_move_tier_validation_forward/) | 14.0.1.0.0 |  | Account Move Tier Validation - Forward Option
+[account_receipt_base](account_receipt_base/) | 14.0.1.0.0 |  | Base fields and methods for better Receipts Management.
 [account_receipt_journal](account_receipt_journal/) | 14.0.1.0.0 | [![eLBati](https://github.com/eLBati.png?size=30px)](https://github.com/eLBati) | Define and use journals dedicated to receipts
 [account_receipt_print](account_receipt_print/) | 14.0.1.0.1 |  | Enable printing in sale and purchase receipts
+[account_receipt_sale](account_receipt_sale/) | 14.0.1.0.1 | [![eLBati](https://github.com/eLBati.png?size=30px)](https://github.com/eLBati) | Generate receipts from sale orders
 [account_refund_payment_term](account_refund_payment_term/) | 14.0.1.0.0 | [![petrus-v](https://github.com/petrus-v.png?size=30px)](https://github.com/petrus-v) | Dedicated payment terms used for refunds
 [accounting_partner_category](accounting_partner_category/) | 14.0.1.0.0 | [![petrus-v](https://github.com/petrus-v.png?size=30px)](https://github.com/petrus-v) | Add tags on partner to helps accountant to select journal entries easley based on dedicated partner category
 [product_supplierinfo_for_customer_invoice](product_supplierinfo_for_customer_invoice/) | 14.0.1.0.0 |  | Based on product_customer_code, this module loads in every account invoice the customer code defined in the product
