@@ -28,6 +28,7 @@ addon | version | maintainers | summary
 [account_invoice_blocking](account_invoice_blocking/) | 13.0.1.0.0 |  | Set a blocking (No Follow-up) flag on invoices
 [account_invoice_check_picking_date](account_invoice_check_picking_date/) | 13.0.2.0.0 | [![carlosdauden](https://github.com/carlosdauden.png?size=30px)](https://github.com/carlosdauden) | Check if date of pickings match with accounting date
 [account_invoice_check_total](account_invoice_check_total/) | 13.0.1.0.1 |  | Check if the verification total is equal to the bill's total
+[account_invoice_customer_no_autofollow](account_invoice_customer_no_autofollow/) | 13.0.1.0.0 | [![dessanhemrayev](https://github.com/dessanhemrayev.png?size=30px)](https://github.com/dessanhemrayev) [![CetmixGitDrone](https://github.com/CetmixGitDrone.png?size=30px)](https://github.com/CetmixGitDrone) | Do not add customer as follower in Invoices
 [account_invoice_date_due](account_invoice_date_due/) | 13.0.1.0.1 | [![luisg123v](https://github.com/luisg123v.png?size=30px)](https://github.com/luisg123v) [![joao-p-marques](https://github.com/joao-p-marques.png?size=30px)](https://github.com/joao-p-marques) | Update Invoice's Due Date
 [account_invoice_fiscal_position_update](account_invoice_fiscal_position_update/) | 13.0.1.0.4 |  | Changing the fiscal position of an invoice will auto-update invoice lines
 [account_invoice_fixed_discount](account_invoice_fixed_discount/) | 13.0.1.0.3 |  | Allows to apply fixed amount discounts in invoices.
@@ -38,7 +39,7 @@ addon | version | maintainers | summary
 [account_invoice_mode_at_shipping](account_invoice_mode_at_shipping/) | 13.0.1.0.1 |  | Create invoices automatically when goods are shipped.
 [account_invoice_mode_monthly](account_invoice_mode_monthly/) | 13.0.1.0.1 |  | Create invoices automatically on a monthly basis.
 [account_invoice_origin_link](account_invoice_origin_link/) | 13.0.1.0.0 | [![GuillemCForgeFlow](https://github.com/GuillemCForgeFlow.png?size=30px)](https://github.com/GuillemCForgeFlow) | Add clickable link in invoice source document.
-[account_invoice_pricelist](account_invoice_pricelist/) | 13.0.1.0.4 |  | Add partner pricelist on invoices
+[account_invoice_pricelist](account_invoice_pricelist/) | 13.0.1.0.5 |  | Add partner pricelist on invoices
 [account_invoice_pricelist_sale](account_invoice_pricelist_sale/) | 13.0.1.0.1 |  | Module to fill pricelist from sales order in invoice.
 [account_invoice_refund_line_selection](account_invoice_refund_line_selection/) | 13.0.1.1.0 |  | This module allows the user to refund specific lines in a invoice
 [account_invoice_refund_link](account_invoice_refund_link/) | 13.0.1.1.3 |  | Show links between refunds and their originator invoices
@@ -59,7 +60,7 @@ addon | version | maintainers | summary
 [account_invoice_tree_currency](account_invoice_tree_currency/) | 13.0.1.0.0 |  | Show currencies in the invoice tree view
 [account_invoice_triple_discount](account_invoice_triple_discount/) | 13.0.1.0.2 |  | Manage triple discount on invoice lines
 [account_invoice_validation_queued](account_invoice_validation_queued/) | 13.0.2.0.0 | [![pedrobaeza](https://github.com/pedrobaeza.png?size=30px)](https://github.com/pedrobaeza) | Enqueue account invoice validation
-[account_invoice_warn_message](account_invoice_warn_message/) | 13.0.1.0.1 |  | Add a popup warning on invoice to ensure warning is populated
+[account_invoice_warn_message](account_invoice_warn_message/) | 13.0.2.0.0 |  | Add a popup warning on invoice to ensure warning is populated
 [account_menu_invoice_refund](account_menu_invoice_refund/) | 13.0.1.0.0 | [![kittiu](https://github.com/kittiu.png?size=30px)](https://github.com/kittiu) | New invoice menu that combine invoices and refunds
 [account_move_exception](account_move_exception/) | 13.0.1.0.1 |  | Custom exceptions on account move
 [account_move_post_block](account_move_post_block/) | 13.0.2.0.0 |  | Account Move Post Block
