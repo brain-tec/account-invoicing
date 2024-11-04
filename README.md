@@ -7,6 +7,11 @@
 
 <!-- /!\ do not modify above this line -->
 
+# BT Customizations
+
+Open OCA PRs merged
+- (https://github.com/OCA/account-invoicing/pull/1829) account_move_tier_validation
+  
 # account-invoicing
 
 TODO: add repo description.
