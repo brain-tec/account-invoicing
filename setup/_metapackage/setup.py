@@ -11,6 +11,7 @@ setuptools.setup(
         'odoo14-addon-account_billing',
         'odoo14-addon-account_global_discount',
         'odoo14-addon-account_invoice_alternate_payer',
+        'odoo14-addon-account_invoice_auto_send_by_email',
         'odoo14-addon-account_invoice_base_invoicing_mode',
         'odoo14-addon-account_invoice_block_payment',
         'odoo14-addon-account_invoice_blocking',
