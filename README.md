@@ -41,7 +41,7 @@ addon | version | maintainers | summary
 [account_invoice_force_number](account_invoice_force_number/) | 15.0.1.0.0 |  | Allows to force invoice numbering on specific invoices
 [account_invoice_line_description](account_invoice_line_description/) | 15.0.1.0.1 |  | Account invoice line description
 [account_invoice_line_sequence](account_invoice_line_sequence/) | 15.0.1.0.0 |  | Adds sequence field on invoice lines to manage its order.
-[account_invoice_mass_sending](account_invoice_mass_sending/) | 15.0.1.0.1 | [![jguenat](https://github.com/jguenat.png?size=30px)](https://github.com/jguenat) | This addon adds a mass sending feature on invoices.
+[account_invoice_mass_sending](account_invoice_mass_sending/) | 15.0.1.0.2 | [![jguenat](https://github.com/jguenat.png?size=30px)](https://github.com/jguenat) | This addon adds a mass sending feature on invoices.
 [account_invoice_merge](account_invoice_merge/) | 15.0.1.0.0 |  | Merge invoices in draft
 [account_invoice_payment_retention](account_invoice_payment_retention/) | 15.0.1.0.0 |  | Account Invoice Payment Retention
 [account_invoice_payment_term_date_due](account_invoice_payment_term_date_due/) | 15.0.1.1.0 | [![ivantodorovich](https://github.com/ivantodorovich.png?size=30px)](https://github.com/ivantodorovich) | Display invoices date due when using payment terms
