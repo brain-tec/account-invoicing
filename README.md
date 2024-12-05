@@ -56,7 +56,7 @@ addon | version | maintainers | summary
 [account_invoice_restrict_linked_so](account_invoice_restrict_linked_so/) | 14.0.1.0.1 |  | Restricts editing the Product, Quantity and Unit Price columns for invoice lines that originated in Sales Orders.
 [account_invoice_search_by_reference](account_invoice_search_by_reference/) | 14.0.1.0.0 |  | Account invoice search by reference
 [account_invoice_section_picking](account_invoice_section_picking/) | 14.0.1.0.0 |  | Extension of Acccount Invoice Section Sale Order to allow grouping of invoice lines according to delivery picking.
-[account_invoice_section_sale_order](account_invoice_section_sale_order/) | 14.0.1.2.0 |  | For invoices targetting multiple sale order addsections with sale order name.
+[account_invoice_section_sale_order](account_invoice_section_sale_order/) | 14.0.1.3.0 |  | For invoices targetting multiple sale order addsections with sale order name.
 [account_invoice_supplier_ref_unique](account_invoice_supplier_ref_unique/) | 14.0.1.0.0 |  | Checks that supplier invoices are not entered twice
 [account_invoice_supplier_self_invoice](account_invoice_supplier_self_invoice/) | 14.0.2.0.7 |  | Purchase Self Invoice
 [account_invoice_supplierinfo_update](account_invoice_supplierinfo_update/) | 14.0.1.0.1 |  | In the supplier invoice, automatically updates all products whose unit price on the line is different from the supplier price
