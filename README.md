@@ -95,7 +95,7 @@ addon | version | maintainers | summary
 [sale_order_invoicing_queued](sale_order_invoicing_queued/) | 14.0.1.0.0 |  | Enqueue sales order invoicing
 [sale_stock_picking_invoicing](sale_stock_picking_invoicing/) | 14.0.1.0.0 | [![mbcosta](https://github.com/mbcosta.png?size=30px)](https://github.com/mbcosta) [![renatonlima](https://github.com/renatonlima.png?size=30px)](https://github.com/renatonlima) | Sales Stock Picking Invocing
 [sale_timesheet_invoice_description](sale_timesheet_invoice_description/) | 14.0.1.0.0 |  | Add timesheet details in invoice line
-[stock_picking_invoicing](stock_picking_invoicing/) | 14.0.1.0.5 |  | Stock Picking Invoicing
+[stock_picking_invoicing](stock_picking_invoicing/) | 14.0.1.0.6 |  | Stock Picking Invoicing
 [stock_picking_invoicing_incoterm](stock_picking_invoicing_incoterm/) | 14.0.1.0.0 |  | Stock Picking Invoicing Incoterm
 
 [//]: # (end addons)
