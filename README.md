@@ -27,9 +27,10 @@ addon | version | maintainers | summary
 [account_invoice_fixed_discount](account_invoice_fixed_discount/) | 17.0.1.1.0 |  | Allows to apply fixed amount discounts in invoices.
 [account_invoice_pricelist](account_invoice_pricelist/) | 17.0.1.0.1 |  | Add partner pricelist on invoices
 [account_invoice_refund_link](account_invoice_refund_link/) | 17.0.1.0.1 |  | Show links between refunds and their originator invoices.
-[account_invoice_section_sale_order](account_invoice_section_sale_order/) | 17.0.2.0.0 |  | For invoices targetting multiple sale order addsections with sale order name.
+[account_invoice_section_sale_order](account_invoice_section_sale_order/) | 17.0.2.1.0 |  | For invoices targetting multiple sale order addsections with sale order name.
 [account_invoice_transmit_method](account_invoice_transmit_method/) | 17.0.1.0.0 | [![alexis-via](https://github.com/alexis-via.png?size=30px)](https://github.com/alexis-via) | Configure invoice transmit method (email, post, portal, ...)
 [account_invoice_warn_message](account_invoice_warn_message/) | 17.0.1.0.0 |  | Add a popup warning on invoice to ensure warning is populated
+[account_manual_currency](account_manual_currency/) | 17.0.1.0.0 |  | Allows to manual currency of Accounting
 [account_move_tier_validation](account_move_tier_validation/) | 17.0.1.0.1 |  | Extends the functionality of Account Moves to support a tier validation process.
 [partner_invoicing_mode](partner_invoicing_mode/) | 17.0.1.0.0 |  | Base module for handling multiple partner invoicing mode
 [portal_account_personal_data_only](portal_account_personal_data_only/) | 17.0.1.0.0 |  | Portal Accounting Personal Data Only
