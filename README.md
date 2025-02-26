@@ -54,7 +54,7 @@ addon | version | maintainers | summary
 [account_invoice_refund_reinvoice](account_invoice_refund_reinvoice/) | 15.0.1.0.0 |  | Allow to Reinvoice a Refund
 [account_invoice_restrict_linked_so](account_invoice_restrict_linked_so/) | 15.0.1.0.1 |  | Restricts editing the Product, Quantity and Unit Price columns for invoice lines that originated in Sales Orders.
 [account_invoice_search_by_reference](account_invoice_search_by_reference/) | 15.0.1.0.0 |  | Account invoice search by reference
-[account_invoice_section_sale_order](account_invoice_section_sale_order/) | 15.0.1.0.2 |  | For invoices targetting multiple sale order addsections with sale order name.
+[account_invoice_section_sale_order](account_invoice_section_sale_order/) | 15.0.1.1.0 |  | For invoices targetting multiple sale order addsections with sale order name.
 [account_invoice_supplier_ref_unique](account_invoice_supplier_ref_unique/) | 15.0.1.1.0 |  | Checks that supplier invoices are not entered twice
 [account_invoice_supplier_self_invoice](account_invoice_supplier_self_invoice/) | 15.0.1.3.0 |  | Purchase Self Invoice
 [account_invoice_tax_note](account_invoice_tax_note/) | 15.0.1.0.1 |  | Print tax notes on customer invoices
