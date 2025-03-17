@@ -65,6 +65,7 @@ setuptools.setup(
         'odoo14-addon-account_move_original_partner',
         'odoo14-addon-account_move_post_block',
         'odoo14-addon-account_move_propagate_ref',
+        'odoo14-addon-account_move_substate',
         'odoo14-addon-account_move_tier_validation',
         'odoo14-addon-account_move_tier_validation_approver',
         'odoo14-addon-account_move_tier_validation_forward',
