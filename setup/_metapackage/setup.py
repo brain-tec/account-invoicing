@@ -77,6 +77,7 @@ setuptools.setup(
         'odoo-addon-sale_credit_note_reversal>=16.0dev,<16.1dev',
         'odoo-addon-sale_invoicing_date_selection>=16.0dev,<16.1dev',
         'odoo-addon-sale_line_refund_to_invoice_qty>=16.0dev,<16.1dev',
+        'odoo-addon-sale_line_refund_to_invoice_qty_skip_anglo_saxon>=16.0dev,<16.1dev',
         'odoo-addon-sale_order_invoicing_grouping_criteria>=16.0dev,<16.1dev',
         'odoo-addon-sale_order_invoicing_qty_percentage>=16.0dev,<16.1dev',
         'odoo-addon-sale_order_invoicing_queued>=16.0dev,<16.1dev',
