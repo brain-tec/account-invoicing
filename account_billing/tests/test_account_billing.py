@@ -5,7 +5,7 @@ from datetime import datetime
 
 from dateutil.relativedelta import relativedelta
 
-from odoo import fields
+from odoo import Command, fields
 from odoo.exceptions import UserError, ValidationError
 from odoo.tests import tagged
 
@@ -199,3 +199,23 @@ class TestAccountBilling(AccountTestInvoicingCommon):
         invoices = inv_1 + inv_2
         action = invoices.action_create_billing()
         self.billing_model.browse(action["res_id"])
+
+    def test_7_record_rule_company_restriction(self):
+        other_company = self.env["res.company"].create({"name": "Other Company"})
+        billing_other = self.billing_model.with_company(other_company).create(
+            {
+                "bill_type": "out_invoice",
+                "partner_id": self.partner_a.id,
+                "currency_id": self.currency_eur_id,
+                "threshold_date": datetime.now(),
+                "threshold_date_type": "invoice_date_due",
+                "company_id": other_company.id,
+            }
+        )
+        self.env.user.company_ids = [Command.set([self.env.company.id])]
+        billing = self.billing_model.search([("id", "=", billing_other.id)])
+        self.assertFalse(billing, "Billing from another company should not be visible")
+        billing_with_sudo = self.billing_model.sudo().search(
+            [("id", "=", billing_other.id)]
+        )
+        self.assertTrue(billing_with_sudo, "Sudo should bypass company record rule")
