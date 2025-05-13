@@ -36,6 +36,8 @@ addon | version | maintainers | summary
 [account_invoice_fiscal_position_update](account_invoice_fiscal_position_update/) | 14.0.1.0.1 | [![alexis-via](https://github.com/alexis-via.png?size=30px)](https://github.com/alexis-via) | Changing the fiscal position of an invoice will auto-update invoice lines
 [account_invoice_fixed_discount](account_invoice_fixed_discount/) | 14.0.1.0.3 |  | Allows to apply fixed amount discounts in invoices.
 [account_invoice_force_number](account_invoice_force_number/) | 14.0.1.0.1 |  | Allows to force invoice numbering on specific invoices
+[account_invoice_google_document_ai](account_invoice_google_document_ai/) | 14.0.1.0.0 |  | Allows to import data from document using Google Document AI
+[account_invoice_google_document_ai_purchase](account_invoice_google_document_ai_purchase/) | 14.0.1.0.0 |  | Integration with purchase
 [account_invoice_line_description](account_invoice_line_description/) | 14.0.1.0.1 |  | Account invoice line description
 [account_invoice_line_sequence](account_invoice_line_sequence/) | 14.0.1.0.1 |  | Adds sequence field on invoice lines to manage its order.
 [account_invoice_mass_sending](account_invoice_mass_sending/) | 14.0.2.0.1 | [![jguenat](https://github.com/jguenat.png?size=30px)](https://github.com/jguenat) | This addon adds a mass sending feature on invoices.

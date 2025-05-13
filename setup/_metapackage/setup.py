@@ -23,6 +23,8 @@ setuptools.setup(
         'odoo14-addon-account_invoice_fiscal_position_update',
         'odoo14-addon-account_invoice_fixed_discount',
         'odoo14-addon-account_invoice_force_number',
+        'odoo14-addon-account_invoice_google_document_ai',
+        'odoo14-addon-account_invoice_google_document_ai_purchase',
         'odoo14-addon-account_invoice_line_description',
         'odoo14-addon-account_invoice_line_sequence',
         'odoo14-addon-account_invoice_mass_sending',
