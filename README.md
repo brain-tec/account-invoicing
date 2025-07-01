@@ -67,6 +67,7 @@ addon | version | maintainers | summary
 [account_invoice_warn_message](account_invoice_warn_message/) | 15.0.1.0.0 |  | Add a popup warning on invoice to ensure warning is populated
 [account_manual_currency](account_manual_currency/) | 15.0.1.0.0 |  | Allows to manual currency of Accounting
 [account_move_exception](account_move_exception/) | 15.0.1.0.0 |  | Custom exceptions on account move
+[account_move_original_partner](account_move_original_partner/) | 15.0.1.0.0 |  | Display original customers when creating invoices from multiple sale orders.
 [account_move_post_block](account_move_post_block/) | 15.0.1.1.0 |  | Account Move Post Block
 [account_move_search_line](account_move_search_line/) | 15.0.1.0.0 |  | Account Move Search Line
 [account_move_sent_usability](account_move_sent_usability/) | 15.0.1.0.1 |  | Allows to filter moves on 'is_move_sent' and to see the value of the field in form
