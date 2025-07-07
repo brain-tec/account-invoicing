@@ -34,7 +34,7 @@ addon | version | maintainers | summary
 [account_invoice_date_due](account_invoice_date_due/) | 14.0.1.0.1 | <a href='https://github.com/luisg123v'><img src='https://github.com/luisg123v.png' width='32' height='32' style='border-radius:50%;' alt='luisg123v'/></a> <a href='https://github.com/joao-p-marques'><img src='https://github.com/joao-p-marques.png' width='32' height='32' style='border-radius:50%;' alt='joao-p-marques'/></a> | Update Invoice's Due Date
 [account_invoice_discount_display_amount](account_invoice_discount_display_amount/) | 14.0.1.0.0 |  | Show total discount applied and total without discount on invoices.
 [account_invoice_fiscal_position_update](account_invoice_fiscal_position_update/) | 14.0.1.0.1 | <a href='https://github.com/alexis-via'><img src='https://github.com/alexis-via.png' width='32' height='32' style='border-radius:50%;' alt='alexis-via'/></a> | Changing the fiscal position of an invoice will auto-update invoice lines
-[account_invoice_fixed_discount](account_invoice_fixed_discount/) | 14.0.1.0.3 |  | Allows to apply fixed amount discounts in invoices.
+[account_invoice_fixed_discount](account_invoice_fixed_discount/) | 14.0.1.0.4 |  | Allows to apply fixed amount discounts in invoices.
 [account_invoice_force_number](account_invoice_force_number/) | 14.0.1.0.1 |  | Allows to force invoice numbering on specific invoices
 [account_invoice_google_document_ai](account_invoice_google_document_ai/) | 14.0.1.0.0 |  | Allows to import data from document using Google Document AI
 [account_invoice_google_document_ai_purchase](account_invoice_google_document_ai_purchase/) | 14.0.1.0.0 |  | Integration with purchase
@@ -46,6 +46,7 @@ addon | version | maintainers | summary
 [account_invoice_mode_daily](account_invoice_mode_daily/) | 14.0.1.0.0 | <a href='https://github.com/mt-software-de'><img src='https://github.com/mt-software-de.png' width='32' height='32' style='border-radius:50%;' alt='mt-software-de'/></a> | Create invoices automatically on a daily basis.
 [account_invoice_mode_monthly](account_invoice_mode_monthly/) | 14.0.1.2.0 |  | Create invoices automatically on a monthly basis.
 [account_invoice_mode_weekly](account_invoice_mode_weekly/) | 14.0.1.2.0 |  | Create invoices automatically on a weekly basis.
+[account_invoice_origin_link](account_invoice_origin_link/) | 14.0.1.0.0 | <a href='https://github.com/GuillemCForgeFlow'><img src='https://github.com/GuillemCForgeFlow.png' width='32' height='32' style='border-radius:50%;' alt='GuillemCForgeFlow'/></a> | Add clickable link in invoice source document.
 [account_invoice_partner](account_invoice_partner/) | 14.0.1.0.0 |  | Replace the partner by an invoice contact if found
 [account_invoice_payment_retention](account_invoice_payment_retention/) | 14.0.1.2.0 |  | Account Invoice Payment Retention
 [account_invoice_pricelist](account_invoice_pricelist/) | 14.0.1.1.0 |  | Add partner pricelist on invoices
@@ -58,6 +59,7 @@ addon | version | maintainers | summary
 [account_invoice_refund_reason_skip_anglo_saxon](account_invoice_refund_reason_skip_anglo_saxon/) | 14.0.1.0.0 | <a href='https://github.com/ChrisOForgeFlow'><img src='https://github.com/ChrisOForgeFlow.png' width='32' height='32' style='border-radius:50%;' alt='ChrisOForgeFlow'/></a> | Account Invoice Refund Reason.
 [account_invoice_refund_reinvoice](account_invoice_refund_reinvoice/) | 14.0.1.0.0 |  | Allow to Reinvoice a Refund
 [account_invoice_restrict_linked_so](account_invoice_restrict_linked_so/) | 14.0.1.0.1 |  | Restricts editing the Product, Quantity and Unit Price columns for invoice lines that originated in Sales Orders.
+[account_invoice_sale_origin_link](account_invoice_sale_origin_link/) | 14.0.1.0.0 | <a href='https://github.com/GuillemCForgeFlow'><img src='https://github.com/GuillemCForgeFlow.png' width='32' height='32' style='border-radius:50%;' alt='GuillemCForgeFlow'/></a> | Add link to the Sale Order in invoice source document.
 [account_invoice_search_by_reference](account_invoice_search_by_reference/) | 14.0.1.0.0 |  | Account invoice search by reference
 [account_invoice_section_picking](account_invoice_section_picking/) | 14.0.1.0.0 |  | Extension of Acccount Invoice Section Sale Order to allow grouping of invoice lines according to delivery picking.
 [account_invoice_section_sale_order](account_invoice_section_sale_order/) | 14.0.1.3.2 |  | For invoices targetting multiple sale order addsections with sale order name.
