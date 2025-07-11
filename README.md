@@ -73,7 +73,8 @@ addon | version | maintainers | summary
 [account_invoice_tree_currency](account_invoice_tree_currency/) | 14.0.1.0.0 |  | Show currencies in the invoice tree view
 [account_invoice_triple_discount](account_invoice_triple_discount/) | 14.0.1.1.3 |  | Manage triple discount on invoice lines
 [account_invoice_validation_queued](account_invoice_validation_queued/) | 14.0.1.0.0 | <a href='https://github.com/pedrobaeza'><img src='https://github.com/pedrobaeza.png' width='32' height='32' style='border-radius:50%;' alt='pedrobaeza'/></a> | Enqueue account invoice validation
-[account_invoice_view_payment](account_invoice_view_payment/) | 14.0.1.0.2 |  | Access to the payment from an invoice
+[account_invoice_view_payment](account_invoice_view_payment/) | 14.0.1.1.0 |  | Access to the payment from an invoice
+[account_invoice_warn_message](account_invoice_warn_message/) | 14.0.1.0.0 |  | Add a popup warning on invoice to ensure warning is populated
 [account_mail_autosubscribe](account_mail_autosubscribe/) | 14.0.1.0.0 | <a href='https://github.com/ivantodorovich'><img src='https://github.com/ivantodorovich.png' width='32' height='32' style='border-radius:50%;' alt='ivantodorovich'/></a> | Automatically subscribe partners to their company's invoices
 [account_menu_invoice_refund](account_menu_invoice_refund/) | 14.0.1.0.0 | <a href='https://github.com/kittiu'><img src='https://github.com/kittiu.png' width='32' height='32' style='border-radius:50%;' alt='kittiu'/></a> | New invoice menu that combine invoices and refunds
 [account_move_exception](account_move_exception/) | 14.0.1.0.0 |  | Custom exceptions on account move

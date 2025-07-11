@@ -61,6 +61,7 @@ setuptools.setup(
         'odoo14-addon-account_invoice_triple_discount',
         'odoo14-addon-account_invoice_validation_queued',
         'odoo14-addon-account_invoice_view_payment',
+        'odoo14-addon-account_invoice_warn_message',
         'odoo14-addon-account_mail_autosubscribe',
         'odoo14-addon-account_menu_invoice_refund',
         'odoo14-addon-account_move_exception',
