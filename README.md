@@ -76,7 +76,7 @@ addon | version | maintainers | summary
 [account_move_cancel_confirm](account_move_cancel_confirm/) | 16.0.1.0.0 | <a href='https://github.com/kittiu'><img src='https://github.com/kittiu.png' width='32' height='32' style='border-radius:50%;' alt='kittiu'/></a> | Account Move Cancel Confirm
 [account_move_sent_usability](account_move_sent_usability/) | 16.0.1.0.1 |  | Allows to filter moves on 'is_move_sent' and to see the value of the field in form
 [account_move_substate](account_move_substate/) | 16.0.1.0.1 |  | Account Move Sub State
-[account_move_tier_validation](account_move_tier_validation/) | 16.0.1.0.1 |  | Extends the functionality of Account Moves to support a tier validation process.
+[account_move_tier_validation](account_move_tier_validation/) | 16.0.1.1.0 |  | Extends the functionality of Account Moves to support a tier validation process.
 [account_receipt_journal](account_receipt_journal/) | 16.0.1.1.0 | <a href='https://github.com/eLBati'><img src='https://github.com/eLBati.png' width='32' height='32' style='border-radius:50%;' alt='eLBati'/></a> <a href='https://github.com/anddago78'><img src='https://github.com/anddago78.png' width='32' height='32' style='border-radius:50%;' alt='anddago78'/></a> | Define and use journals dedicated to receipts
 [account_receipt_send](account_receipt_send/) | 16.0.1.0.2 | <a href='https://github.com/Shide'><img src='https://github.com/Shide.png' width='32' height='32' style='border-radius:50%;' alt='Shide'/></a> | Send receipts
 [account_tax_change](account_tax_change/) | 16.0.1.0.3 | <a href='https://github.com/sebalix'><img src='https://github.com/sebalix.png' width='32' height='32' style='border-radius:50%;' alt='sebalix'/></a> | Configure your tax changes starting from a date.
