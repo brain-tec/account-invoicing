@@ -22,6 +22,7 @@ Available addons
 addon | version | maintainers | summary
 --- | --- | --- | ---
 [account_global_discount](account_global_discount/) | 17.0.1.0.0 |  | Account Global Discount
+[account_invoice_auto_send_by_email](account_invoice_auto_send_by_email/) | 17.0.1.0.0 |  | Invoice with the email transmit method are send automatically.
 [account_invoice_block_payment](account_invoice_block_payment/) | 17.0.1.0.0 |  | Module to block payment of invoices
 [account_invoice_blocking](account_invoice_blocking/) | 17.0.1.0.2 |  | Set a blocking (No Follow-up) flag on invoices
 [account_invoice_crm_tag](account_invoice_crm_tag/) | 17.0.1.0.0 |  | Account Invoice CRM Tag
@@ -52,7 +53,7 @@ addon | version | maintainers | summary
 [sale_order_type_whole_delivered_invoiceability](sale_order_type_whole_delivered_invoiceability/) | 17.0.1.0.0 |  | Sale Order Type Whole Delivered Invoiceability
 [sale_order_whole_delivered_invoiceability](sale_order_whole_delivered_invoiceability/) | 17.0.1.0.0 |  | Sale Order Whole Delivered Invoiceability
 [sale_timesheet_invoice_description](sale_timesheet_invoice_description/) | 17.0.1.0.1 |  | Add timesheet details in invoice line
-[stock_account_move_reset_to_draft](stock_account_move_reset_to_draft/) | 17.0.1.0.0 | <a href='https://github.com/victoralmau'><img src='https://github.com/victoralmau.png' width='32' height='32' style='border-radius:50%;' alt='victoralmau'/></a> | Stock account move reset to draft
+[stock_account_move_reset_to_draft](stock_account_move_reset_to_draft/) | 17.0.1.0.1 | <a href='https://github.com/victoralmau'><img src='https://github.com/victoralmau.png' width='32' height='32' style='border-radius:50%;' alt='victoralmau'/></a> | Stock account move reset to draft
 [stock_picking_invoicing](stock_picking_invoicing/) | 17.0.1.0.0 |  | Stock Picking Invoicing
 [stock_picking_return_refund_option](stock_picking_return_refund_option/) | 17.0.1.0.0 | <a href='https://github.com/sergio-teruel'><img src='https://github.com/sergio-teruel.png' width='32' height='32' style='border-radius:50%;' alt='sergio-teruel'/></a> | Update the refund options in pickings
 
