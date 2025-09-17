@@ -22,6 +22,11 @@ msgid "Active"
 msgstr "Activo"
 
 #. module: account_invoice_transmit_method_substitution_rule
+#: model_terms:ir.ui.view,arch_db:account_invoice_transmit_method_substitution_rule.transmit_method_substitution_rule_form_view
+msgid "Archived"
+msgstr ""
+
+#. module: account_invoice_transmit_method_substitution_rule
 #: model:ir.model.fields,field_description:account_invoice_transmit_method_substitution_rule.field_transmit_method_substitution_rule__company_id
 msgid "Company"
 msgstr "Compañía"
@@ -52,14 +57,9 @@ msgid "ID"
 msgstr "ID"
 
 #. module: account_invoice_transmit_method_substitution_rule
-#: model:ir.model,name:account_invoice_transmit_method_substitution_rule.model_account_invoice
-msgid "Invoice"
-msgstr "Factura"
-
-#. module: account_invoice_transmit_method_substitution_rule
-#: model:ir.model.fields,field_description:account_invoice_transmit_method_substitution_rule.field_transmit_method_substitution_rule____last_update
-msgid "Last Modified on"
-msgstr "Última modificación el"
+#: model:ir.model,name:account_invoice_transmit_method_substitution_rule.model_account_move
+msgid "Journal Entry"
+msgstr ""
 
 #. module: account_invoice_transmit_method_substitution_rule
 #: model:ir.model.fields,field_description:account_invoice_transmit_method_substitution_rule.field_transmit_method_substitution_rule__write_uid
@@ -94,3 +94,9 @@ msgstr "Regla de sustitución para el método de transmisión"
 #, fuzzy
 msgid "Transmit Method Substitution Rules"
 msgstr "Reglas de sustitución para el método de transmisión"
+
+#~ msgid "Invoice"
+#~ msgstr "Factura"
+
+#~ msgid "Last Modified on"
+#~ msgstr "Última modificación el"

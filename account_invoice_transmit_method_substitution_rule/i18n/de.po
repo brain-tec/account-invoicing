@@ -20,6 +20,11 @@ msgid "Active"
 msgstr ""
 
 #. module: account_invoice_transmit_method_substitution_rule
+#: model_terms:ir.ui.view,arch_db:account_invoice_transmit_method_substitution_rule.transmit_method_substitution_rule_form_view
+msgid "Archived"
+msgstr ""
+
+#. module: account_invoice_transmit_method_substitution_rule
 #: model:ir.model.fields,field_description:account_invoice_transmit_method_substitution_rule.field_transmit_method_substitution_rule__company_id
 msgid "Company"
 msgstr ""
@@ -50,13 +55,8 @@ msgid "ID"
 msgstr ""
 
 #. module: account_invoice_transmit_method_substitution_rule
-#: model:ir.model,name:account_invoice_transmit_method_substitution_rule.model_account_invoice
-msgid "Invoice"
-msgstr ""
-
-#. module: account_invoice_transmit_method_substitution_rule
-#: model:ir.model.fields,field_description:account_invoice_transmit_method_substitution_rule.field_transmit_method_substitution_rule____last_update
-msgid "Last Modified on"
+#: model:ir.model,name:account_invoice_transmit_method_substitution_rule.model_account_move
+msgid "Journal Entry"
 msgstr ""
 
 #. module: account_invoice_transmit_method_substitution_rule
