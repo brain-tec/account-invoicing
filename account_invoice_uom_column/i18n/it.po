@@ -1,6 +1,6 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-# 	* sale_invoicing_date_from_picking
+# 	* account_invoice_uom_column
 #
 msgid ""
 msgstr ""
@@ -16,7 +16,12 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 5.10.4\n"
 
-#. module: sale_invoicing_date_from_picking
-#: model:ir.model,name:sale_invoicing_date_from_picking.model_sale_advance_payment_inv
-msgid "Sales Advance Payment Invoice"
-msgstr "Fattura di vendita con pagamento anticipato"
+#. module: account_invoice_uom_column
+#: model_terms:ir.ui.view,arch_db:account_invoice_uom_column.report_invoice_document
+msgid "<span>Qty</span>"
+msgstr "<span>Q.tà</span>"
+
+#. module: account_invoice_uom_column
+#: model_terms:ir.ui.view,arch_db:account_invoice_uom_column.report_invoice_document
+msgid "<span>UoM</span>"
+msgstr "<span>UdM</span>"
