@@ -49,6 +49,7 @@ setuptools.setup(
         'odoo-addon-account_invoice_supplier_self_invoice>=16.0dev,<16.1dev',
         'odoo-addon-account_invoice_supplierinfo_update>=16.0dev,<16.1dev',
         'odoo-addon-account_invoice_supplierinfo_update_discount>=16.0dev,<16.1dev',
+        'odoo-addon-account_invoice_supplierinfo_update_qty_multiplier>=16.0dev,<16.1dev',
         'odoo-addon-account_invoice_supplierinfo_update_triple_discount>=16.0dev,<16.1dev',
         'odoo-addon-account_invoice_tax_note>=16.0dev,<16.1dev',
         'odoo-addon-account_invoice_tax_required>=16.0dev,<16.1dev',
