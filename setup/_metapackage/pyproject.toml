@@ -1,7 +1,8 @@
 [project]
 name = "odoo-addons-oca-account-invoicing"
-version = "19.0.20251202.0"
+version = "19.0.20260108.0"
 dependencies = [
+    "odoo-addon-account_invoice_fixed_discount==19.0.*",
     "odoo-addon-account_invoice_pricelist==19.0.*",
 ]
 classifiers=[
