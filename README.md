@@ -21,7 +21,7 @@ Available addons
 ----------------
 addon | version | maintainers | summary
 --- | --- | --- | ---
-[account_billing](account_billing/) | 16.0.1.1.0 | <a href='https://github.com/Saran440'><img src='https://github.com/Saran440.png' width='32' height='32' style='border-radius:50%;' alt='Saran440'/></a> | Group invoice as billing before payment
+[account_billing](account_billing/) | 16.0.1.1.2 | <a href='https://github.com/Saran440'><img src='https://github.com/Saran440.png' width='32' height='32' style='border-radius:50%;' alt='Saran440'/></a> | Group invoice as billing before payment
 [account_global_discount](account_global_discount/) | 16.0.2.0.0 |  | Account Global Discount
 [account_invoice_alternate_payer](account_invoice_alternate_payer/) | 16.0.1.0.0 |  | Set a alternate payor/payee in invoices
 [account_invoice_block_payment](account_invoice_block_payment/) | 16.0.1.0.0 |  | Module to block payment of invoices
@@ -90,7 +90,7 @@ addon | version | maintainers | summary
 [partner_invoicing_mode](partner_invoicing_mode/) | 16.0.2.0.0 |  | Base module for handling multiple partner invoicing mode
 [partner_invoicing_mode_at_shipping](partner_invoicing_mode_at_shipping/) | 16.0.1.2.0 |  | Create invoices automatically when goods are shipped.
 [partner_invoicing_mode_monthly](partner_invoicing_mode_monthly/) | 16.0.2.0.0 |  | Create invoices automatically on a monthly basis.
-[partner_last_invoice_date](partner_last_invoice_date/) | 16.0.1.0.0 |  | Add Last Invoice Date to Partners.
+[partner_last_invoice_date](partner_last_invoice_date/) | 16.0.1.0.1 |  | Add Last Invoice Date to Partners.
 [portal_account_personal_data_only](portal_account_personal_data_only/) | 16.0.1.0.0 |  | Portal Accounting Personal Data Only
 [product_form_account_move_line_link](product_form_account_move_line_link/) | 16.0.1.0.0 |  | Adds a button on product forms to access Journal Items
 [purchase_invoicing_no_zero_line](purchase_invoicing_no_zero_line/) | 16.0.1.0.1 |  | Avoid creation of zero quantity invoice lines from purchase
