@@ -39,7 +39,8 @@ addon | version | maintainers | summary
 [account_invoice_discount_date](account_invoice_discount_date/) | 16.0.1.0.1 | <a href='https://github.com/Shide'><img src='https://github.com/Shide.png' width='32' height='32' style='border-radius:50%;' alt='Shide'/></a> <a href='https://github.com/rafaelbn'><img src='https://github.com/rafaelbn.png' width='32' height='32' style='border-radius:50%;' alt='rafaelbn'/></a> | Set the early discount date on invoices
 [account_invoice_discount_display_amount](account_invoice_discount_display_amount/) | 16.0.1.1.2 |  | Show total discount applied and total without discount on invoices.
 [account_invoice_fiscal_position_update](account_invoice_fiscal_position_update/) | 16.0.1.0.2 | <a href='https://github.com/alexis-via'><img src='https://github.com/alexis-via.png' width='32' height='32' style='border-radius:50%;' alt='alexis-via'/></a> | Changing the fiscal position of an invoice will auto-update invoice lines
-[account_invoice_fixed_discount](account_invoice_fixed_discount/) | 16.0.2.0.0 |  | Allows to apply fixed amount discounts in invoices.
+[account_invoice_fixed_discount](account_invoice_fixed_discount/) | 16.0.3.0.0 |  | Allows to apply fixed amount discounts in invoices.
+[account_invoice_fixed_triple_discount](account_invoice_fixed_triple_discount/) | 16.0.2.0.0 |  | Compatibility between fixed and triple discount modules
 [account_invoice_force_number](account_invoice_force_number/) | 16.0.1.0.1 |  | Allows to force invoice numbering on specific invoices
 [account_invoice_google_document_ai](account_invoice_google_document_ai/) | 16.0.1.0.0 |  | Allows to import data from document using Google Document AI
 [account_invoice_line_default_account](account_invoice_line_default_account/) | 16.0.1.0.0 |  | Account Invoice Line Default Account
@@ -71,7 +72,7 @@ addon | version | maintainers | summary
 [account_invoice_tax_required](account_invoice_tax_required/) | 16.0.1.1.0 |  | This module adds functional a check on invoice to force user to set tax on invoice line.
 [account_invoice_transmit_method](account_invoice_transmit_method/) | 16.0.1.1.0 | <a href='https://github.com/alexis-via'><img src='https://github.com/alexis-via.png' width='32' height='32' style='border-radius:50%;' alt='alexis-via'/></a> | Configure invoice transmit method (email, post, portal, ...)
 [account_invoice_tree_currency](account_invoice_tree_currency/) | 16.0.1.0.0 |  | Show currencies in the invoice tree view
-[account_invoice_triple_discount](account_invoice_triple_discount/) | 16.0.4.0.1 |  | Manage triple discount on invoice lines
+[account_invoice_triple_discount](account_invoice_triple_discount/) | 16.0.5.0.0 |  | Manage triple discount on invoice lines
 [account_invoice_uom_column](account_invoice_uom_column/) | 16.0.1.0.0 | <a href='https://github.com/legalsylvain'><img src='https://github.com/legalsylvain.png' width='32' height='32' style='border-radius:50%;' alt='legalsylvain'/></a> | Display UoM invoice line in a dedicated column on invoice reports
 [account_invoice_validation_queued](account_invoice_validation_queued/) | 16.0.1.0.0 | <a href='https://github.com/pedrobaeza'><img src='https://github.com/pedrobaeza.png' width='32' height='32' style='border-radius:50%;' alt='pedrobaeza'/></a> | Enqueue account invoice validation
 [account_invoice_view_payment](account_invoice_view_payment/) | 16.0.1.0.0 |  | Access to the payment from an invoice

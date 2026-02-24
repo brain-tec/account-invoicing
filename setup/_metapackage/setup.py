@@ -26,6 +26,7 @@ setuptools.setup(
         'odoo-addon-account_invoice_discount_display_amount>=16.0dev,<16.1dev',
         'odoo-addon-account_invoice_fiscal_position_update>=16.0dev,<16.1dev',
         'odoo-addon-account_invoice_fixed_discount>=16.0dev,<16.1dev',
+        'odoo-addon-account_invoice_fixed_triple_discount>=16.0dev,<16.1dev',
         'odoo-addon-account_invoice_force_number>=16.0dev,<16.1dev',
         'odoo-addon-account_invoice_google_document_ai>=16.0dev,<16.1dev',
         'odoo-addon-account_invoice_line_default_account>=16.0dev,<16.1dev',
