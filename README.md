@@ -60,7 +60,7 @@ addon | version | maintainers | summary
 [account_invoice_refund_reason](account_invoice_refund_reason/) | 16.0.1.0.1 | <a href='https://github.com/max3903'><img src='https://github.com/max3903.png' width='32' height='32' style='border-radius:50%;' alt='max3903'/></a> | Account Invoice Refund Reason.
 [account_invoice_refund_reason_skip_anglo_saxon](account_invoice_refund_reason_skip_anglo_saxon/) | 16.0.1.0.0 | <a href='https://github.com/ChrisOForgeFlow'><img src='https://github.com/ChrisOForgeFlow.png' width='32' height='32' style='border-radius:50%;' alt='ChrisOForgeFlow'/></a> | Account Invoice Refund Reason.
 [account_invoice_refund_reinvoice](account_invoice_refund_reinvoice/) | 16.0.1.0.0 |  | Allow to Reinvoice a Refund
-[account_invoice_section_sale_order](account_invoice_section_sale_order/) | 16.0.1.1.0 |  | For invoices targetting multiple sale order addsections with sale order name.
+[account_invoice_section_sale_order](account_invoice_section_sale_order/) | 16.0.1.2.0 |  | For invoices targetting multiple sale order addsections with sale order name.
 [account_invoice_show_currency_rate](account_invoice_show_currency_rate/) | 16.0.1.0.7 | <a href='https://github.com/victoralmau'><img src='https://github.com/victoralmau.png' width='32' height='32' style='border-radius:50%;' alt='victoralmau'/></a> | Show currency rate in invoices.
 [account_invoice_supplier_ref_unique](account_invoice_supplier_ref_unique/) | 16.0.1.0.0 |  | Checks that supplier invoices are not entered twice
 [account_invoice_supplier_self_invoice](account_invoice_supplier_self_invoice/) | 16.0.1.0.0 |  | Purchase Self Invoice
