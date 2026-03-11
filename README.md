@@ -22,6 +22,7 @@ Available addons
 ----------------
 addon | version | maintainers | summary
 --- | --- | --- | ---
+[account_global_discount](account_global_discount/) | 19.0.1.0.0 |  | Account Global Discount
 [account_invoice_fixed_discount](account_invoice_fixed_discount/) | 19.0.1.0.0 |  | Allows to apply fixed amount discounts in invoices.
 [account_invoice_pricelist](account_invoice_pricelist/) | 19.0.1.0.2 |  | Add partner pricelist on invoices
 [account_invoice_pricelist_sale](account_invoice_pricelist_sale/) | 19.0.1.0.0 |  | Module to fill pricelist from sales order in invoice.
