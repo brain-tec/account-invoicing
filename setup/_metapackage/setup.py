@@ -84,6 +84,7 @@ setuptools.setup(
         'odoo-addon-partner_last_invoice_date>=16.0dev,<16.1dev',
         'odoo-addon-portal_account_personal_data_only>=16.0dev,<16.1dev',
         'odoo-addon-product_form_account_move_line_link>=16.0dev,<16.1dev',
+        'odoo-addon-product_supplierinfo_for_customer_invoice>=16.0dev,<16.1dev',
         'odoo-addon-purchase_invoicing_no_zero_line>=16.0dev,<16.1dev',
         'odoo-addon-purchase_stock_picking_return_invoicing>=16.0dev,<16.1dev',
         'odoo-addon-sale_credit_note_reversal>=16.0dev,<16.1dev',
