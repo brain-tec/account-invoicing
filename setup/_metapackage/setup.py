@@ -80,6 +80,7 @@ setuptools.setup(
         'odoo-addon-account_tax_one_vat_sale>=16.0dev,<16.1dev',
         'odoo-addon-partner_invoicing_mode>=16.0dev,<16.1dev',
         'odoo-addon-partner_invoicing_mode_at_shipping>=16.0dev,<16.1dev',
+        'odoo-addon-partner_invoicing_mode_cash_on_delivery>=16.0dev,<16.1dev',
         'odoo-addon-partner_invoicing_mode_monthly>=16.0dev,<16.1dev',
         'odoo-addon-partner_last_invoice_date>=16.0dev,<16.1dev',
         'odoo-addon-portal_account_personal_data_only>=16.0dev,<16.1dev',
