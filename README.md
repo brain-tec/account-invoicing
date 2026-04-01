@@ -44,6 +44,7 @@ addon | version | maintainers | summary
 [account_invoice_subscription_per_contact](account_invoice_subscription_per_contact/) | 18.0.1.0.1 | <a href='https://github.com/victoralmau'><img src='https://github.com/victoralmau.png' width='32' height='32' style='border-radius:50%;' alt='victoralmau'/></a> | Account Invoice Subscription per contact
 [account_invoice_supplier_ref_unique](account_invoice_supplier_ref_unique/) | 18.0.1.0.0 |  | Checks that supplier invoices are not entered twice
 [account_invoice_supplierinfo_update](account_invoice_supplierinfo_update/) | 18.0.1.1.0 | <a href='https://github.com/legalsylvain'><img src='https://github.com/legalsylvain.png' width='32' height='32' style='border-radius:50%;' alt='legalsylvain'/></a> | In the supplier invoice, automatically updates all products whose unit price on the line is different from the supplier price
+[account_invoice_tax_note](account_invoice_tax_note/) | 18.0.1.0.0 |  | Print tax notes on customer invoices
 [account_invoice_tax_required](account_invoice_tax_required/) | 18.0.1.0.0 |  | This module adds functional a check on invoice to force user to set tax on invoice line.
 [account_invoice_transmit_method](account_invoice_transmit_method/) | 18.0.1.1.0 | <a href='https://github.com/alexis-via'><img src='https://github.com/alexis-via.png' width='32' height='32' style='border-radius:50%;' alt='alexis-via'/></a> | Configure invoice transmit method (email, post, portal, ...)
 [account_invoice_transmit_method_substitution_rule](account_invoice_transmit_method_substitution_rule/) | 18.0.1.0.0 |  | This addon allow to set substitution rules for transmit method
@@ -62,7 +63,7 @@ addon | version | maintainers | summary
 [account_tax_one_vat](account_tax_one_vat/) | 18.0.1.0.0 |  | Allow only the selection of one VAT Tax.
 [account_warn_option](account_warn_option/) | 18.0.1.0.2 | <a href='https://github.com/Shide'><img src='https://github.com/Shide.png' width='32' height='32' style='border-radius:50%;' alt='Shide'/></a> <a href='https://github.com/rafaelbn'><img src='https://github.com/rafaelbn.png' width='32' height='32' style='border-radius:50%;' alt='rafaelbn'/></a> | Add Options to Account Warn Messages
 [partner_invoicing_mode](partner_invoicing_mode/) | 18.0.1.0.0 |  | Base module for handling multiple partner invoicing mode
-[partner_invoicing_mode_at_shipping](partner_invoicing_mode_at_shipping/) | 18.0.1.0.1 |  | Create invoices automatically when goods are shipped.
+[partner_invoicing_mode_at_shipping](partner_invoicing_mode_at_shipping/) | 18.0.1.0.2 |  | Create invoices automatically when goods are shipped.
 [partner_invoicing_mode_monthly](partner_invoicing_mode_monthly/) | 18.0.1.0.0 |  | Create invoices automatically on a monthly basis.
 [portal_account_personal_data_only](portal_account_personal_data_only/) | 18.0.1.0.0 |  | Portal Accounting Personal Data Only
 [product_customerinfo_invoice](product_customerinfo_invoice/) | 18.0.1.0.0 |  | Based on product_customerinfo, this module loads in every account invoice the customer code defined in the product
