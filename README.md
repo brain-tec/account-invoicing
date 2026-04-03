@@ -103,6 +103,7 @@ addon | version | maintainers | summary
 [purchase_invoicing_no_zero_line](purchase_invoicing_no_zero_line/) | 16.0.1.0.1 |  | Avoid creation of zero quantity invoice lines from purchase
 [purchase_stock_picking_return_invoicing](purchase_stock_picking_return_invoicing/) | 16.0.1.0.2 | <a href='https://github.com/pedrobaeza'><img src='https://github.com/pedrobaeza.png' width='32' height='32' style='border-radius:50%;' alt='pedrobaeza'/></a> <a href='https://github.com/MiquelRForgeFlow'><img src='https://github.com/MiquelRForgeFlow.png' width='32' height='32' style='border-radius:50%;' alt='MiquelRForgeFlow'/></a> | Add an option to refund returned pickings
 [sale_credit_note_reversal](sale_credit_note_reversal/) | 16.0.1.0.0 |  | Allow to revert a credit note
+[sale_invoice_date_from_picking](sale_invoice_date_from_picking/) | 16.0.1.0.0 |  | Sale Invoice Date From Picking
 [sale_invoicing_date_from_picking](sale_invoicing_date_from_picking/) | 16.0.1.0.0 |  | Applies the wizard date to invoices generated from pickings
 [sale_invoicing_date_selection](sale_invoicing_date_selection/) | 16.0.1.0.0 | <a href='https://github.com/sergio-teruel'><img src='https://github.com/sergio-teruel.png' width='32' height='32' style='border-radius:50%;' alt='sergio-teruel'/></a> | Set date invoice when you create invoices
 [sale_line_refund_to_invoice_qty](sale_line_refund_to_invoice_qty/) | 16.0.1.0.0 |  | Allow deciding whether refunded quantity should be considered as quantity to reinvoice

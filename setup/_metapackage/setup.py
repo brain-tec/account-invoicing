@@ -89,6 +89,7 @@ setuptools.setup(
         'odoo-addon-purchase_invoicing_no_zero_line>=16.0dev,<16.1dev',
         'odoo-addon-purchase_stock_picking_return_invoicing>=16.0dev,<16.1dev',
         'odoo-addon-sale_credit_note_reversal>=16.0dev,<16.1dev',
+        'odoo-addon-sale_invoice_date_from_picking>=16.0dev,<16.1dev',
         'odoo-addon-sale_invoicing_date_from_picking>=16.0dev,<16.1dev',
         'odoo-addon-sale_invoicing_date_selection>=16.0dev,<16.1dev',
         'odoo-addon-sale_line_refund_to_invoice_qty>=16.0dev,<16.1dev',
