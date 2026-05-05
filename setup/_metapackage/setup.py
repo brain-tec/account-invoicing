@@ -11,6 +11,7 @@ setuptools.setup(
         'odoo-addon-account_billing>=16.0dev,<16.1dev',
         'odoo-addon-account_global_discount>=16.0dev,<16.1dev',
         'odoo-addon-account_invoice_alternate_payer>=16.0dev,<16.1dev',
+        'odoo-addon-account_invoice_analytic_search>=16.0dev,<16.1dev',
         'odoo-addon-account_invoice_block_payment>=16.0dev,<16.1dev',
         'odoo-addon-account_invoice_blocking>=16.0dev,<16.1dev',
         'odoo-addon-account_invoice_change_currency>=16.0dev,<16.1dev',
