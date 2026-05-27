@@ -26,6 +26,7 @@ addon | version | maintainers | summary
 [account_invoice_fixed_discount](account_invoice_fixed_discount/) | 19.0.1.0.0 |  | Allows to apply fixed amount discounts in invoices.
 [account_invoice_pricelist](account_invoice_pricelist/) | 19.0.1.0.2 |  | Add partner pricelist on invoices
 [account_invoice_pricelist_sale](account_invoice_pricelist_sale/) | 19.0.1.0.0 |  | Module to fill pricelist from sales order in invoice.
+[account_invoice_refund_code](account_invoice_refund_code/) | 19.0.1.0.0 |  | This module allows to have specific refund codes.
 [account_invoice_refund_link](account_invoice_refund_link/) | 19.0.1.0.0 |  | Show links between refunds and their originator invoices.
 [account_invoice_section_sale_order](account_invoice_section_sale_order/) | 19.0.1.0.0 |  | For invoices targetting multiple sale order addsections with sale order name.
 [account_invoice_show_currency_rate](account_invoice_show_currency_rate/) | 19.0.1.0.0 | <a href='https://github.com/victoralmau'><img src='https://github.com/victoralmau.png' width='32' height='32' style='border-radius:50%;' alt='victoralmau'/></a> | Show currency rate in invoices.
@@ -36,6 +37,7 @@ addon | version | maintainers | summary
 [account_move_substate](account_move_substate/) | 19.0.1.0.0 | <a href='https://github.com/ps-tubtim'><img src='https://github.com/ps-tubtim.png' width='32' height='32' style='border-radius:50%;' alt='ps-tubtim'/></a> | Account Move Sub State
 [account_receipt_journal](account_receipt_journal/) | 19.0.1.0.1 | <a href='https://github.com/eLBati'><img src='https://github.com/eLBati.png' width='32' height='32' style='border-radius:50%;' alt='eLBati'/></a> | Define and use journals dedicated to receipts
 [partner_invoicing_mode](partner_invoicing_mode/) | 19.0.1.0.0 |  | Base module for handling multiple partner invoicing mode
+[partner_invoicing_mode_at_shipping](partner_invoicing_mode_at_shipping/) | 19.0.1.0.0 |  | Create invoices automatically when goods are shipped.
 [portal_account_personal_data_only](portal_account_personal_data_only/) | 19.0.1.0.0 |  | Portal Accounting Personal Data Only
 [product_form_account_move_line_link](product_form_account_move_line_link/) | 19.0.1.0.0 |  | Adds a button on product forms to access Journal Items
 [sale_order_invoicing_qty_percentage](sale_order_invoicing_qty_percentage/) | 19.0.1.0.0 | <a href='https://github.com/pedrobaeza'><img src='https://github.com/pedrobaeza.png' width='32' height='32' style='border-radius:50%;' alt='pedrobaeza'/></a> | Sales order invoicing by percentage of the quantity
