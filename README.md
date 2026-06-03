@@ -41,6 +41,7 @@ addon | version | maintainers | summary
 [partner_invoicing_mode_at_shipping](partner_invoicing_mode_at_shipping/) | 19.0.1.0.0 |  | Create invoices automatically when goods are shipped.
 [portal_account_personal_data_only](portal_account_personal_data_only/) | 19.0.1.0.0 |  | Portal Accounting Personal Data Only
 [product_form_account_move_line_link](product_form_account_move_line_link/) | 19.0.1.0.0 |  | Adds a button on product forms to access Journal Items
+[purchase_create_bill_button](purchase_create_bill_button/) | 19.0.1.0.0 | <a href='https://github.com/jarcosmts'><img src='https://github.com/jarcosmts.png' width='32' height='32' style='border-radius:50%;' alt='jarcosmts'/></a> <a href='https://github.com/ograciamts'><img src='https://github.com/ograciamts.png' width='32' height='32' style='border-radius:50%;' alt='ograciamts'/></a> | Add a direct button to create bills from purchase orders
 [sale_order_invoicing_qty_percentage](sale_order_invoicing_qty_percentage/) | 19.0.1.0.0 | <a href='https://github.com/pedrobaeza'><img src='https://github.com/pedrobaeza.png' width='32' height='32' style='border-radius:50%;' alt='pedrobaeza'/></a> | Sales order invoicing by percentage of the quantity
 
 [//]: # (end addons)
