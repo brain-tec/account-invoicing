@@ -40,6 +40,7 @@ addon | version | maintainers | summary
 [account_move_pivot_view](account_move_pivot_view/) | 19.0.1.0.0 |  | Adds pivot view to Invoices (move in and move out) and Refunds
 [account_move_substate](account_move_substate/) | 19.0.1.0.0 | <a href='https://github.com/ps-tubtim'><img src='https://github.com/ps-tubtim.png' width='32' height='32' style='border-radius:50%;' alt='ps-tubtim'/></a> | Account Move Sub State
 [account_receipt_journal](account_receipt_journal/) | 19.0.1.0.1 | <a href='https://github.com/eLBati'><img src='https://github.com/eLBati.png' width='32' height='32' style='border-radius:50%;' alt='eLBati'/></a> | Define and use journals dedicated to receipts
+[account_tax_fixed_amount_currency](account_tax_fixed_amount_currency/) | 19.0.1.0.0 |  | Allow fixed-amount taxes to have their amount expressed in a specific currency, with automatic conversion to the document currency.
 [account_tax_fixed_amount_multiplier](account_tax_fixed_amount_multiplier/) | 19.0.1.0.0 | <a href='https://github.com/ivantodorovich'><img src='https://github.com/ivantodorovich.png' width='32' height='32' style='border-radius:50%;' alt='ivantodorovich'/></a> | Control how the quantity is computed for fixed-amount taxes: standard line quantity, quantity in product UoM, or no multiplier.
 [partner_invoicing_mode](partner_invoicing_mode/) | 19.0.1.0.0 |  | Base module for handling multiple partner invoicing mode
 [partner_invoicing_mode_at_shipping](partner_invoicing_mode_at_shipping/) | 19.0.1.0.0 |  | Create invoices automatically when goods are shipped.
